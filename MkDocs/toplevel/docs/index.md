@@ -2,7 +2,7 @@
 
 在这些动手实验中，您将学习如何开始使用 IBM Maximo 产品组合中的不同产品。</br>
 这些实验处于不同的就绪状态，如下所示，即它们可能带有<font color="red">正在建设中！！</font>的标识。</br>
-欢迎[提交问题](https://github.com/IBM/maximo-labs/issues){target=_blank}并向我们提供反馈。
+欢迎[提交问题](https://github.com/miles-canton/maximo-labs-zh/issues){target=_blank}并向我们提供反馈。
 
 !!! tip
     使用左上角的搜索功能可帮助您在实验中更快地找到主题。

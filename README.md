@@ -1,5 +1,5 @@
 # IBM Maximo 实践实验室
-这是一个 MkDocs 网站,用于开源 Maximo 实践实验室的文档。
+这是一个 MkDocs 网站,用于开源 Maximo 实践实验的文档。
 这将使多个贡献者能够帮助提交问题和维护文档。
 
 在此访问已发布的文档：[https://ibm.github.io/maximo-labs/](https://ibm.github.io/maximo-labs/)
