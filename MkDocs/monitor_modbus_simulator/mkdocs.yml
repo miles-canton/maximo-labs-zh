@@ -1,0 +1,41 @@
+site_name: Monitor Modbus 模拟器实验
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Jan Ekstrøm
+site_description: "Maximo Monitor Modbus 模拟器动手实验"
+site_dir: ../../site/monitor_modbus_simulator
+
+nav:
+  - 返回 Maximo 实验: ..
+  - Monitor Modbus 模拟器实验:
+    - 欢迎来到本实验: index.md
+    - 前置条件: prereqs.md
+  - 练习:
+    - 1. 使用 Docker 镜像: docker.md
+    - 2. 使用 Node-RED 脚本: node-red.md
+  - 关于:
+    - 发布说明: release_notes.md
+    - 版权: ../copyright
+  
+
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-EGH6ZGZ8CT
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+markdown_extensions:
+  - attr_list
+  - admonition
+
+extra_css:
+  - ../css/extra.css
+
+extra_javascript:
+  - ../js/popper.min.js
+  - ../js/tippy-bundle.umd.js
+  - ../js/clipboard.js
+  - ../js/extra.js
+
+# Made with Bob

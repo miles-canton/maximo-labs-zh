@@ -1,0 +1,48 @@
+site_name: Monitor 管理层次结构实验
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Margi Shah
+site_description: "Monitor 管理层次结构实验"
+site_dir: ../../site/monitor_hierarchy_9.1
+
+nav:
+  - 返回 Maximo 实验: ..
+  - Monitor 层次结构实验:
+    - 欢迎来到 Monitor 层次结构实验: index.md
+    - 开始: getting_started.md
+    - 前提条件: prereqs.md
+  - 练习:
+    - 1. 创建组织: create_organization.md
+    - 2. 激活组织: activate_organization.md
+    - 3. 创建站点: create_site.md
+    - 4. 创建位置、系统: create_location.md
+    - 5. 创建资产并分配位置: create_asset.md
+    - 6. 在 Monitor 中创建设备类型和设备: create_devicetype.md
+    - 7. 分配设备: assign_devices.md
+    - 8. 层次结构视图: hierarchy_view.md
+  - 关于:
+    - 发布说明: release_notes.md
+    - 版权: ../copyright
+
+
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-EGH6ZGZ8CT
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+markdown_extensions:
+  - attr_list
+  - admonition
+
+extra_css:
+  - ../css/extra.css
+
+extra_javascript:
+  - ../js/popper.min.js
+  - ../js/tippy-bundle.umd.js
+  - ../js/clipboard.js
+  - ../js/extra.js
+
+# Made with Bob

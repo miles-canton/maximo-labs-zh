@@ -1,0 +1,44 @@
+site_name: Monitor 托管网关实验
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Jan Ekstrøm
+site_description: "Maximo Monitor 9.1 托管网关 Modbus 实验"
+site_dir: ../../site/monitor_managed_gw_modbus_9.1
+
+nav:
+  - 返回 Maximo 实验: ..
+  - Monitor 托管网关 Modbus 实验:
+    - 欢迎: index.md
+    - 前置条件: prereqs.md
+  - 练习:
+        - 1. 设置模拟器环境: setup_simulator.md
+        - 2. 创建托管网关: create_gateway.md
+        - 3. 添加工业设备: add_device_1.md
+        - 4. 部署并验证数据流入: deploy.md
+        - 5. 添加另一个工业设备: add_device_2.md
+        - 6. 部署并在仪表板中查看数据: re-deploy.md
+  - 关于:
+    - 发布说明: release_notes.md
+    - 版权: ../copyright
+
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-EGH6ZGZ8CT
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+markdown_extensions:
+  - attr_list
+  - admonition
+
+extra_css:
+  - ../css/extra.css
+
+extra_javascript:
+  - ../js/popper.min.js
+  - ../js/tippy-bundle.umd.js
+  - ../js/clipboard.js
+  - ../js/extra.js
+
+# Made with Bob

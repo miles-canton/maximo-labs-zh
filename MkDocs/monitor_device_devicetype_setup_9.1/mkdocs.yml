@@ -1,0 +1,46 @@
+site_name: 设备和设备类型设置实验
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Mayur Sojitra
+site_description: "Maximo Monitor 设备和设备类型设置实验"
+site_dir: ../../site/monitor_device_devicetype_setup_9.1
+
+nav:
+  - 返回 Maximo 实验: ..
+  - Monitor 设备和设备类型设置实验:
+    - 欢迎: index.md
+    - 前提条件: prereqs.md
+  - 练习:
+        - 1. 设备类型创建: overview_configuration.md
+        - 2. 设备类型中的指标: add_metrics.md
+        - 3. 设备类型中的维度: add_dimensions.md
+        - 4. 添加和编辑设备: add_edit_device.md
+        - 5. 设备与资产/位置的关系: device_relation.md
+        - 6. 计算指标: add_calc_metrics.md
+        - 7. 仪表板: devicetype_dashboard.md
+        - 8. 归档/恢复/删除设备类型: archive_devicetype.md
+  - 关于:
+    - 发布说明: release_notes.md
+    - 版权: ../copyright
+
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-EGH6ZGZ8CT
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+markdown_extensions:
+  - attr_list
+  - admonition
+
+extra_css:
+  - ../css/extra.css
+
+extra_javascript:
+  - ../js/popper.min.js
+  - ../js/tippy-bundle.umd.js
+  - ../js/clipboard.js
+  - ../js/extra.js
+
+# Made with Bob

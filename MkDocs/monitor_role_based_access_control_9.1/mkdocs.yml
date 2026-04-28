@@ -1,0 +1,42 @@
+site_name: Monitor 基于角色的访问控制实验
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Jvaneel Dwivedi
+site_description: "Maximo Monitor 9.1 基于角色的访问控制实验"
+site_dir: ../../site/monitor_role_based_access_control_9.1
+
+nav:
+  - 返回 Maximo 实验: ..
+  - Monitor RBAC 实验:
+    - 欢迎: index.md
+    - 前提条件: prereqs.md
+  - 练习:
+        - 1. 创建安全组: create_security_groups.md
+        - 2. 创建用户并分配组: create_users.md
+        - 3. 用户登录和访问行为: user_access_behavior.md
+
+  - 关于:
+    - 发布说明: release_notes.md
+    - 版权: ../copyright
+
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-EGH6ZGZ8CT
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+markdown_extensions:
+  - attr_list
+  - admonition
+
+extra_css:
+  - ../css/extra.css
+
+extra_javascript:
+  - ../js/popper.min.js
+  - ../js/tippy-bundle.umd.js
+  - ../js/clipboard.js
+  - ../js/extra.js
+
+# Made with Bob

@@ -1,0 +1,42 @@
+site_name: Monitor 告警实验
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Jan Ekstrøm
+site_description: "Maximo Monitor 告警设置"
+site_dir: ../../site/monitor_alerts_9.1
+
+nav:
+  - 返回 Maximo 实验: ..
+  - Monitor 告警:
+    - 欢迎: index.md
+    - 前提条件: prereqs.md
+  - 练习:
+        - 1. 在设备类型级别设置告警: setup_alert.md
+        - 2. 在设备/设备类型级别查看告警: view_alert.md
+        - 3. 在不同层级级别设置告警: hierarchyAlerts.md
+        - 4. 基于告警创建服务请求: servicerequest.md
+  - 关于:
+    - 发布说明: release_notes.md
+    - 版权: ../copyright
+
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-EGH6ZGZ8CT
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+markdown_extensions:
+  - attr_list
+  - admonition
+
+extra_css:
+  - ../css/extra.css
+
+extra_javascript:
+  - ../js/popper.min.js
+  - ../js/tippy-bundle.umd.js
+  - ../js/clipboard.js
+  - ../js/extra.js
+
+# Made with Bob

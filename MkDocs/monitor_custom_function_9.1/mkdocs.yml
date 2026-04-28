@@ -1,0 +1,42 @@
+site_name: Monitor 自定义函数实验
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Radhika Surani
+site_description: "Maximo Monitor 9.1 自定义函数"
+site_dir: ../../site/monitor_custom_function_9.1
+
+nav:
+  - 返回 Maximo 实验: ..
+  - Monitor 自定义函数:
+    - 欢迎: index.md
+    - 前提条件: prereqs.md
+  - 练习:
+        - 1. 设置启动包: setup_starter_package.md
+        - 2. 编写自定义函数: write_custom_function.md
+        - 3. 注册自定义函数: register_custom_function.md
+        - 4. 应用自定义函数: apply_custom_function.md
+  - 关于:
+    - 发布说明: release_notes.md
+    - 版权: ../copyright
+
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-EGH6ZGZ8CT
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+markdown_extensions:
+  - attr_list
+  - admonition
+
+extra_css:
+  - ../css/extra.css
+
+extra_javascript:
+  - ../js/popper.min.js
+  - ../js/tippy-bundle.umd.js
+  - ../js/clipboard.js
+  - ../js/extra.js
+
+# Made with Bob

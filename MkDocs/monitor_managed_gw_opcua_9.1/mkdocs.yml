@@ -1,0 +1,42 @@
+site_name: Monitor 托管网关实验
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Jan Ekstrøm
+site_description: "Maximo Monitor 托管网关 OPC UA 实验"
+site_dir: ../../site/monitor_managed_gw_opcua_9.1
+
+nav:
+  - 返回 Maximo 实验: ..
+  - Monitor 托管网关 OPC UA 实验:
+    - 欢迎: index.md
+    - 前置条件: prereqs.md
+  - 练习:
+        - 1. 设置模拟器环境: setup_simulator.md
+        - 2. 向设备库添加设备: add_device.md
+        - 3. 创建托管网关: create_gateway.md
+        - 4. 部署并验证数据流入: deploy.md
+  - 关于:
+    - 发布说明: release_notes.md
+    - 版权: ../copyright
+
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-EGH6ZGZ8CT
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+markdown_extensions:
+  - attr_list
+  - admonition
+
+extra_css:
+  - ../css/extra.css
+
+extra_javascript:
+  - ../js/popper.min.js
+  - ../js/tippy-bundle.umd.js
+  - ../js/clipboard.js
+  - ../js/extra.js
+
+# Made with Bob

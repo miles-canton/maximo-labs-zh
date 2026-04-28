@@ -1,0 +1,41 @@
+site_name: Monitor Node-RED CSV导入器实验
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Jan Ekstrøm & Contributors
+site_description: "Maximo Monitor Node-RED CSV导入器动手实验"
+site_dir: ../../site/monitor_nodered_csv_importer_2.0
+
+nav:
+  - 返回 Maximo 实验: ..
+  - Monitor Node-RED CSV导入器实验:
+    - 欢迎: index.md
+    - 前提条件: prereqs.md
+  - 练习:
+        - 1. 设置Node-RED环境: setup.md
+        - 2. 直接将设备数据注入Monitor: setup_device.md
+        - 3. 通过网关将设备数据注入Monitor: setup_gateway.md
+  - 关于:
+    - 发布说明: release_notes.md
+    - 版权: ../copyright
+
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-EGH6ZGZ8CT
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+markdown_extensions:
+  - attr_list
+  - admonition
+
+extra_css:
+  - ../css/extra.css
+
+extra_javascript:
+  - ../js/popper.min.js
+  - ../js/tippy-bundle.umd.js
+  - ../js/clipboard.js
+  - ../js/extra.js
+
+# Made with Bob

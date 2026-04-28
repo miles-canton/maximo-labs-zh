@@ -1,0 +1,44 @@
+site_name: Monitor 仪表-指标映射实验
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Vivek Domadiya
+site_description: "Monitor 仪表-指标映射实验"
+site_dir: ../../site/monitor_meter_metric_mapping_9.1
+
+nav:
+  - 返回 Maximo 实验: ..
+  - Monitor 仪表-指标映射实验:
+    - 欢迎来到本实验: index.md
+    - 前置条件: prereqs.md
+  - 练习:
+    - 1. 设置仪表/指标映射: setup.md
+    - 2. 在 Manage UI 中查看仪表数据: view_meter_data.md
+    - 3. 切换同步启用/禁用: toggle_sync.md
+    - 4. 编辑仪表/指标映射: edit.md
+    - 5. 删除仪表/指标映射: delete.md
+  - 关于:
+    - 发布说明: release_notes.md
+    - 版权: ../copyright
+  
+
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-EGH6ZGZ8CT
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+markdown_extensions:
+  - attr_list
+  - admonition
+
+extra_css:
+  - ../css/extra.css
+
+extra_javascript:
+  - ../js/popper.min.js
+  - ../js/tippy-bundle.umd.js
+  - ../js/clipboard.js
+  - ../js/extra.js
+
+# Made with Bob

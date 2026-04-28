@@ -1,0 +1,43 @@
+site_name: Monitor Maximo 房地产与设施管理
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Kajal Lalwani
+site_description: "Monitor Maximo 房地产与设施管理实验"
+site_dir: ../../site/monitor_MREF_integration_9.1
+
+nav:
+  - 返回 Maximo 实验: ..
+  - Monitor MREF:
+    - 欢迎: index.md
+    - 前置条件: prerequisite.md
+  - 练习:
+        - 1. 配置 Maximo 房地产与设施管理: configure_MREF.md
+        - 2. Maximo 房地产与设施管理建筑: mref_buildings.md
+        - 3. Maximo 房地产与设施管理位置详情: mref_location_details.md
+        - 4. 工作场所分析仪表板: workplace_dashboard.md
+        - 5. 清理: cleanup.md
+  - 关于:
+    - 发布说明: release_notes.md
+    - 版权: ../copyright
+
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-EGH6ZGZ8CT
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+markdown_extensions:
+  - attr_list
+  - admonition
+
+extra_css:
+  - ../css/extra.css
+
+extra_javascript:
+  - ../js/popper.min.js
+  - ../js/tippy-bundle.umd.js
+  - ../js/clipboard.js
+  - ../js/extra.js
+
+# Made with Bob

@@ -1,0 +1,42 @@
+site_name: MAS Techzone 认证基础镜像实验
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Jan Ekstrøm
+site_description: "MAS TechZone 认证基础镜像动手实验"
+site_dir: ../../site/mas_techzone_base
+
+nav:
+  - 返回 Maximo 实验: ..
+  - MAS Techzone 认证镜像实验:
+    - 欢迎: index.md
+    - 前置条件: prereqs.md
+  - 练习:
+        - 1. 实例化基础镜像: instantiate.md
+        - 2. 准备使用: prepare_for_use.md
+        - 3. 更新 MAS [9.0.3 +]: update_mas.md
+        - 4. 更新 MAS [9.0.1 & 9.0.2]: upgrade_mas.md
+  - 关于:
+    - 发布说明: release_notes.md
+    - 版权: ../copyright
+
+theme:
+  name: readthedocs
+  analytics:
+    gtag: G-EGH6ZGZ8CT
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+markdown_extensions:
+  - attr_list
+  - admonition
+
+extra_css:
+  - ../css/extra.css
+
+extra_javascript:
+  - ../js/popper.min.js
+  - ../js/tippy-bundle.umd.js
+  - ../js/clipboard.js
+  - ../js/extra.js
+
+# Made with Bob
