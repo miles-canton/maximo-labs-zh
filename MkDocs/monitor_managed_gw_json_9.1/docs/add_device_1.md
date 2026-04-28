@@ -21,20 +21,20 @@
 ![导航到设备库](img/device_library_01.png)</br>
 
 - 可以使用 CSV 文件格式的设备设置添加 Modbus 设备。</br>
-点击 `Add device to library` 并选择 `Import device settings` 选项：</br>
+点击 `将设备添加到库` 并选择 `导入设备设置` 选项：</br>
 ![导入设备设置](img/device_library_02.png)</br>
 
 - 选择协议为 `JSON Over HTTP`</br>
 ![导入设备设置](img/device_library_03.png)</br>
 
-- 输入设备详细信息并点击 `Next`：</br>
+- 输入设备详细信息并点击 `下一步`：</br>
 ![导入设备设置](img/device_library_04.png)</br>
 
 !!! tip
     * 如果在选项中找不到制造商，可以添加新制造商。
     * 如果其他人在同一 Maximo Application Suite 环境中遵循本实验，设备名称中的 XX 应该是您的首字母缩写。
 
-- 下载 `example.xlsx file`</br>
+- 下载 `.xlsx文件示例`</br>
 ![导入设备设置](img/device_library_05.png)</br>
 
 - 打开 Excel 文件以在 `metrics` 工作表中填写数据点，模板中的每一列都提供了有关其目的的上下文以及完成相应单元格值的说明。重要的是要注意，CSV 中的每一行代表一个 json-over-http 数据点。
@@ -71,10 +71,10 @@
 
 ![导入设备设置](img/device_library_13.png)</br>
 
-- 上传 CSV 文件并选择 `Next`
+- 上传 CSV 文件并选择 `下一步`
 ![导入设备设置](img/device_library_14.png)</br>
 
-- 您可以看到数据点的摘要，如果需要，您可以在此处删除指标。完成后点击 `Finish`：</br>
+- 您可以看到数据点的摘要，如果需要，您可以在此处删除指标。完成后点击 `完成`：</br>
 ![导入设备设置](img/device_library_15.png)</br>
 
 !!! attention

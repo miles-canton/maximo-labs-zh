@@ -16,17 +16,18 @@
 !!! note "请记住"
     请记住，TechZone 仅适用于拥有 IBMid 的 IBM 业务合作伙伴和 IBM 员工。
 
-搜索 `TechZone Certified Base Images`，您将找到此页面：</br>
+搜索 `Maximo Application Suite (Self-Provisioned, On-Demand)
+`，然后点击 `Maximo Application Suite (Self-Provisioned, On-Demand)
+`，您将找到此页面：</br>
 
 ![TechZone](img/instantiate_01.png)</br></br>
 
-选择 `Pre-Installed Software` 选项卡。</br>
-向下滚动直到找到 Maximo Application Suite 镜像。</br>
-目前（2025年5月30日）9.0.x 版本存在以下两个镜像：</br>
+选择 `Environments` 选项卡。</br>
+目前（2026年04月28日）9.1.x 版本存在以下四个镜像：</br>
 
 ![MAS Images](img/instantiate_02.png)</br></br>
 
-点击 `OCP-V on IBM Cloud environment` 以实例化其中一个。本实验中使用了 `MAS V2 Core` 镜像，因为它的部署时间要短得多。点击 `Reserve a environment`：
+点击其中一个，以实例化对应的环境。本实验中使用了 ` Maximo IT` 镜像，因为它的部署时间要短得多。点击 `Reserve a environment`：
 
 ![Reservation Now](img/instantiate_03.png)</br></br>
 
@@ -62,7 +63,7 @@
 
 ![Reservation Ready](img/instantiate_10.png)</br></br>
 
-在本例中，实例化 `MAS V2 Core` 镜像只花了大约 1.5 小时：</br>
+在本例中，实例化 ` Maximo IT` 镜像花了大约 3.5 小时：</br>
 
 ![Reservation Provisioning Emails](img/instantiate_11.png)</br></br>
 

@@ -22,7 +22,7 @@
     Monitor 不再有主主页。与 Monitor 的所有交互都从左侧菜单的 Monitor 部分启动</br>
 
 </br>
-选择 `Add gateway`：
+选择 `添加网关`：
 ![创建网关](img/create_gateway_03.png)</br></br>
 
 定义网关 ID `XX_MGD_GW_01` 和网关类型 `XX_MGD_GW_01`。

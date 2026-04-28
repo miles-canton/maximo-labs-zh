@@ -33,26 +33,7 @@
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [Maximo Monitor Cisco Spaces 集成](monitor_cisco_spaces_integration_9.1/) | [Cisco Spaces 概述](monitor_cisco_spaces_integration_9.1/cisco_spaces_overview) |
-|                                                                | [生成激活令牌](monitor_cisco_spaces_integration_9.1/generate_activation_token)           |
-|                                                                | [配置 Cisco Spaces 集成](monitor_cisco_spaces_integration_9.1/cisco_spaces_integration)   |
-|                                                                | [位置列表概述](monitor_cisco_spaces_integration_9.1/locations_list)                        |
-|                                                                | [订阅 Cisco Space 位置](monitor_cisco_spaces_integration_9.1/subscribe)                      |
-|                                                                | [Cisco Spaces 位置指标](monitor_cisco_spaces_integration_9.1/location_metrics)                |
-|                                                                | [在 MREF 位置生成热图](monitor_cisco_spaces_integration_9.1/heatmap)                     |
-|                                                                | [取消订阅 Cisco Space 位置](monitor_cisco_spaces_integration_9.1/unsubscribe)                  |
-|                                                                | [编辑/删除 Cisco Spaces 配置](monitor_cisco_spaces_integration_9.1/edit_delete_config)   |
 
-| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
-|----------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [Maximo Monitor 房地产和设施集成](monitor_MREF_integration_9.1/) | [配置 Maximo 房地产和设施](monitor_MREF_integration_9.1/configure_MREF) |
-|                                                                | [Maximo 房地产和设施建筑](monitor_MREF_integration_9.1/mref_buildings)                         |
-|                                                                | [Maximo 房地产和设施位置详情](monitor_MREF_integration_9.1/mref_location_details)           |
-|                                                                | [工作场所分析仪表板](monitor_MREF_integration_9.1/workplace_dashboard)                                 |
-|                                                                | [清理](monitor_MREF_integration_9.1/cleanup)                                                                   |
-
-| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
-|----------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [Maximo Monitor 基于角色的访问控制](monitor_role_based_access_control_9.1/)  | [创建安全组](monitor_role_based_access_control_9.1/create_security_groups) |
 |                                                                | [创建用户并分配组](monitor_role_based_access_control_9.1/create_users)                        |
 |                                                                | [登录和访问行为](monitor_role_based_access_control_9.1/user_access_behavior)                     |
@@ -93,15 +74,7 @@
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [Maximo Monitor Cisco Webex 集成](monitor_cisco_webex_integration_9.1/) | [使用 Cisco Webex 设备的概述和目的](monitor_cisco_webex_integration_9.1/overview) |
-|                                                                | [在 MAS Monitor 中集成 Cisco Webex 设备](monitor_cisco_webex_integration_9.1/create_integration)            |
-|                                                                | [订阅 Cisco Webex 设备](monitor_cisco_webex_integration_9.1/add_device)                              |
-|                                                                | [将 Cisco Webex 设备分配到位置](monitor_cisco_webex_integration_9.1/assign_location)                   |
-|                                                                | [取消订阅 Cisco Webex 设备](monitor_cisco_webex_integration_9.1/unsubscribe_device)                         |
-|                                                                | [删除 Cisco Webex 配置](monitor_cisco_webex_integration_9.1/delete_integartion)                       |
 
-| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
-|----------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [Maximo Monitor 仪表-指标映射](monitor_meter_metric_mapping_9.1/) | [设置仪表/指标映射](monitor_meter_metric_mapping_9.1/setup)       |
 |                                                                | [在 Manage UI 中查看仪表数据](monitor_meter_metric_mapping_9.1/view_meter_data/) |
 |                                                                | [切换同步启用/禁用](monitor_meter_metric_mapping_9.1/toggle_sync)            |
@@ -139,7 +112,35 @@
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [Maximo Monitor Modbus 模拟器](monitor_modbus_simulator/)   | [使用 Docker 镜像](monitor_modbus_simulator/docker)                            |
 |                                                                | [使用 Node-RED 脚本](monitor_modbus_simulator/node-red)                       |
+| [Maximo Monitor Cisco Spaces 集成](monitor_cisco_spaces_integration_9.1/) | [Cisco Spaces 概述](monitor_cisco_spaces_integration_9.1/cisco_spaces_overview) |
+|                                                                | [生成激活令牌](monitor_cisco_spaces_integration_9.1/generate_activation_token)           |
+|                                                                | [配置 Cisco Spaces 集成](monitor_cisco_spaces_integration_9.1/cisco_spaces_integration)   |
+|                                                                | [位置列表概述](monitor_cisco_spaces_integration_9.1/locations_list)                        |
+|                                                                | [订阅 Cisco Space 位置](monitor_cisco_spaces_integration_9.1/subscribe)                      |
+|                                                                | [Cisco Spaces 位置指标](monitor_cisco_spaces_integration_9.1/location_metrics)                |
+|                                                                | [在 MREF 位置生成热图](monitor_cisco_spaces_integration_9.1/heatmap)                     |
+|                                                                | [取消订阅 Cisco Space 位置](monitor_cisco_spaces_integration_9.1/unsubscribe)                  |
+|                                                                | [编辑/删除 Cisco Spaces 配置](monitor_cisco_spaces_integration_9.1/edit_delete_config)   |
 
+| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|----------------------------------------------------------------|------------------------------------------------------------------------------------|
+| [Maximo Monitor 房地产和设施集成](monitor_MREF_integration_9.1/) | [配置 Maximo 房地产和设施](monitor_MREF_integration_9.1/configure_MREF) |
+|                                                                | [Maximo 房地产和设施建筑](monitor_MREF_integration_9.1/mref_buildings)                         |
+|                                                                | [Maximo 房地产和设施位置详情](monitor_MREF_integration_9.1/mref_location_details)           |
+|                                                                | [工作场所分析仪表板](monitor_MREF_integration_9.1/workplace_dashboard)                                 |
+|                                                                | [清理](monitor_MREF_integration_9.1/cleanup)                                                                   |
+
+| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|----------------------------------------------------------------|------------------------------------------------------------------------------------|
+| [Maximo Monitor Cisco Webex 集成](monitor_cisco_webex_integration_9.1/) | [使用 Cisco Webex 设备的概述和目的](monitor_cisco_webex_integration_9.1/overview) |
+|                                                                | [在 MAS Monitor 中集成 Cisco Webex 设备](monitor_cisco_webex_integration_9.1/create_integration)            |
+|                                                                | [订阅 Cisco Webex 设备](monitor_cisco_webex_integration_9.1/add_device)                              |
+|                                                                | [将 Cisco Webex 设备分配到位置](monitor_cisco_webex_integration_9.1/assign_location)                   |
+|                                                                | [取消订阅 Cisco Webex 设备](monitor_cisco_webex_integration_9.1/unsubscribe_device)                         |
+|                                                                | [删除 Cisco Webex 配置](monitor_cisco_webex_integration_9.1/delete_integartion)                       |
+
+| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|----------------------------------------------------------------|---------------------------------------------------------------------------------------|
 
 ### Maximo Application Suite 9.0
 
