@@ -1,84 +1,83 @@
-# Welcome to the</br>Maximo Application Suite 9.0 Overview Lab
+# 欢迎来到</br>Maximo Application Suite 9.0 概览实验
 
-You will learn a high level overview of the Maximo Application Suite applications version 9 which includes Monitor, Digital Twin Exchange, Visual Inspection, Manage, Mobile, Assist, Parts Identifier, Predict and Health.  
+您将学习 Maximo Application Suite 应用程序第 9 版的高级概览,其中包括 Monitor、Digital Twin Exchange、Visual Inspection、Manage、Mobile、Assist、Parts Identifier、Predict 和 Health。
 
-You will take on a variety of personas that work for a Water Resource Authority which are responsible for water and waterwaste treatment facilities and assets. You will understand how all of these applications work together to manage and operate assets across multiple sites from a single application.  
+您将扮演为水资源管理局工作的各种角色,负责水和废水处理设施及资产。您将了解所有这些应用程序如何协同工作,从单个应用程序管理和操作跨多个站点的资产。
 
-Students doing the demo in this lab should have been provided access to Maximo Application Suite v9.0 instance by the Lab Facilitator or your IBM Rep.  
+参加本实验演示的学生应该已经由实验协调员或您的 IBM 代表提供了 Maximo Application Suite v9.0 实例的访问权限。
 
-To prepare for delivering the demo should read the Pre-Requisites located in the left menu in this lab.
+为了准备演示,应阅读本实验左侧菜单中的先决条件。
 
-See [Contributing to Labs](../../contribute/) if you are interested in providing feedback by submitting enhancements or bugs.  We also 
-welcome your contributions to existing or new exercises. 
+如果您有兴趣通过提交改进或错误报告来提供反馈,请参阅[为实验做贡献](../../contribute/)。我们也欢迎您对现有或新练习的贡献。
 
-## Story
+## 故事
 
-A Water Resource Authority needs to manage water and wastewater treatment assets across multiple sites from a single application.  Remote operational support engineers need a single dashboard to manage sites and assets.  The technician needs to have access to accurate details about the work he is assigned to perform. The reliability engineer needs to implement reliability centered maintenance (RCM) analysis, understand the asset health, and prevent predicted failures.
+水资源管理局需要从单个应用程序管理跨多个站点的水和废水处理资产。远程运营支持工程师需要一个单一的仪表板来管理站点和资产。技术人员需要访问有关分配给他执行的工作的准确详细信息。可靠性工程师需要实施以可靠性为中心的维护 (RCM) 分析,了解资产健康状况,并防止预测的故障。
 
 
-## Personas
+## 角色
 
-- Remote Operational Support<br>
-- Asset Manager<br>
-- Technician<br>
-- Reliability Engineer<br>
+- 远程运营支持<br>
+- 资产管理员<br>
+- 技术人员<br>
+- 可靠性工程师<br>
 
-## Overview
+## 概览
 
-<b>Scene: Reliability Engineer performs RCM analysis and implements reliability strategies</b><br>
+<b>场景:可靠性工程师执行 RCM 分析并实施可靠性策略</b><br>
 <br>
-Reliability Engineer
+可靠性工程师
 
-- Navigates to Reliability Strategies application in MAS
-- Selects critical asset for RCM Analysis
-- Performs RCM analysis and determines reliability strategies for selected asset
-- Creates RCM tasks and activities or sensors for improved asset availability and efficiency
+- 导航到 MAS 中的可靠性策略应用程序
+- 选择关键资产进行 RCM 分析
+- 执行 RCM 分析并确定所选资产的可靠性策略
+- 创建 RCM 任务和活动或传感器以提高资产可用性和效率
 
 
-<b>Scene: Remote Operational Support Engineer monitors assets in Monitor</b><br>
+<b>场景:远程运营支持工程师在 Monitor 中监控资产</b><br>
 <br>
-Operational support
+运营支持
 
-- Navigates to Sedimentation summary dashboard
-- Filters on an alert that Sedimentation Tank is dirty
-- Navigates to Tank instance dashboard and opens first SR to have the debris removed
-- Navigates to Pump summary dashboard 
-- Notices an anomaly alert on Pump 005
-- Reviews asset history and service recently done to replace the seals to address vibration
-- Reviews anomaly function and alert thresholds
-- Opens Service request to respond to the alert
+- 导航到沉淀汇总仪表板
+- 筛选沉淀池脏污的警报
+- 导航到储罐实例仪表板并打开第一个服务请求以清除碎片
+- 导航到泵汇总仪表板
+- 注意到泵 005 上的异常警报
+- 查看资产历史记录和最近完成的更换密封件以解决振动问题的服务
+- 查看异常函数和警报阈值
+- 打开服务请求以响应警报
 
 
-<b>Scene: Technician performs inspection and repair using Maximo Mobile and Assist</b><br>
+<b>场景:技术人员使用 Maximo Mobile 和 Assist 执行检查和维修</b><br>
 <br>
-Engineer
+工程师
 
-- Executes the work order (WO) in Mobile and after finding the impeller was improperly installed, re installs the impeller
-- Confirms plan with remote expert tech assistance (Assist Mobile App/Collaborate)  [THIS IS STILL A WIP FOR 9.0]
-- Repairs the pump, adds failure code, comments, and completes the WO (Manage Mobile App) 
-- Views the assets in the table view, briefly discuss page features, shows pumps with the shared view (Health)
-- Views map, chart, matrix, and work queue "Failing before PM" (Health)
-- Selects a PMPDEVICE XXX that is also under performing and is predicted to fail before the next scheduled PM (Health and Predict)
-- Reviews asset detail page and asset timeline (Health and Predict)
-- Reviews actions to take from the asset detail page (Health and Predict)
+- 在 Mobile 中执行工作订单 (WO),在发现叶轮安装不当后,重新安装叶轮
+- 与远程专家技术援助确认计划 (Assist Mobile App/Collaborate) [这在 9.0 中仍在进行中]
+- 修理泵,添加故障代码、注释并完成工作订单 (Manage Mobile App)
+- 在表格视图中查看资产,简要讨论页面功能,使用共享视图显示泵 (Health)
+- 查看地图、图表、矩阵和工作队列"在 PM 之前失败" (Health)
+- 选择一个性能不佳且预计在下次计划 PM 之前失败的 PMPDEVICE XXX (Health 和 Predict)
+- 查看资产详细信息页面和资产时间线 (Health 和 Predict)
+- 查看从资产详细信息页面采取的操作 (Health 和 Predict)
 
-<b>Scene: Reliability Engineer views asset performance in Health and Predict to identify assets at risk</b><br>
+<b>场景:可靠性工程师在 Health 和 Predict 中查看资产性能以识别有风险的资产</b><br>
 <br>
 
-Reliability Engineer
+可靠性工程师
 
-- Views the assets in the table view, briefly discuss page features, shows pumps with the shared view (Health)
-- Views map, chart, matrix, and work queue "Failing before PM" (Health)
-- Selects a PMPDEVICE XXX that is also under performing and is predicted to fail before the next scheduled PM (Health and Predict)
-- Reviews asset detail page and asset timeline (Health and Predict)
-- Reviews actions to take from the asset detail page (Health and Predict)
+- 在表格视图中查看资产,简要讨论页面功能,使用共享视图显示泵 (Health)
+- 查看地图、图表、矩阵和工作队列"在 PM 之前失败" (Health)
+- 选择一个性能不佳且预计在下次计划 PM 之前失败的 PMPDEVICE XXX (Health 和 Predict)
+- 查看资产详细信息页面和资产时间线 (Health 和 Predict)
+- 查看从资产详细信息页面采取的操作 (Health 和 Predict)
 
 
-## Demo Flow 
+## 演示流程
 
 ---
 
-*Needs to be Updated - This lab is still under development*  
+*需要更新 - 此实验仍在开发中*
 
 ---
 
@@ -86,6 +85,6 @@ Reliability Engineer
 
 ---
 
-**Updated: 2025-01-16**
+**更新时间: 2025-01-16**
 
 ---

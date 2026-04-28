@@ -1,13 +1,13 @@
-<h1>CLOSING REMARKS</h1> 
+<h1>结束语</h1> 
 
-- In our end-to-end journey, we’ve seen our Remote Operations Support Engineer get a view of the sedimentation tanks with MVI, using a model that the Asset Analyst and the Asset Manager downloaded from the Digital Twin Exchange. 
+- 在我们的端到端旅程中,我们看到远程运营支持工程师使用 MVI 查看沉淀池,使用资产分析师和资产管理员从 Digital Twin Exchange 下载的模型。
 
-- The Engineer also monitored all of the enterprise’s pumps in near-real time, applyingAI anomaly detection to eliminate false positive alerts. They investigated an asset in trouble, and submitted a service request all from a set of dashboardsin Maximo Monitor. 
+- 工程师还近乎实时地监控企业的所有泵,应用 AI 异常检测以消除误报警报。他们调查了有问题的资产,并直接从 Maximo Monitor 中的一组仪表板提交了服务请求。
 
-- We talked about how our supervisor may create a work order in Maximo Manage for our technician, or it can be automatically generated.  And, that technician used Maximo Mobile to remotely complete the w/o, and received AI assistance with Maximo Assist and Parts Identifier. 
+- 我们讨论了主管如何在 Maximo Manage 中为技术人员创建工作订单,或者它可以自动生成。该技术人员使用 Maximo Mobile 远程完成工作订单,并通过 Maximo Assist 和 Parts Identifier 获得 AI 帮助。
 
-- When our technician had a man-down situation, our Safety Officer was able to detect the problem, communicate with the technician, provide assistance, and ultimately identify the root cause of the problem with Maximo Safety. 
+- 当我们的技术人员遇到人员倒地情况时,我们的安全官员能够检测到问题,与技术人员沟通,提供帮助,并最终使用 Maximo Safety 确定问题的根本原因。
 
-- And finally, our Reliability Engineer continued the investigation, using Maximo Health and Predict to better understand the current and future states of the pumps, identify potential problems, and take actions using AI-driven insights to avoid unplanned downtime. 
+- 最后,我们的可靠性工程师继续调查,使用 Maximo Health 和 Predict 更好地了解泵的当前和未来状态,识别潜在问题,并使用 AI 驱动的洞察采取行动以避免计划外停机。
 
-All of these applications are delivered in the Maximo Application Suite and can address any, or all, of the roles we discussed today. 
+所有这些应用程序都在 Maximo Application Suite 中提供,可以解决我们今天讨论的任何或所有角色。

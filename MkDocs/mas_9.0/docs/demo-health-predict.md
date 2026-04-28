@@ -1,206 +1,203 @@
-# Health - Predict Lab
+# Health - Predict 实验
 !!! note
-    This lab is under development.  Not all steps are complete or accurate.
+    此实验正在开发中。并非所有步骤都完整或准确。
 
-## Health Overview
+## Health 概览
 
-Now that one asset has been identified as creating multiple alerts, the Operations Manager asked the Reliability Manager to dig deeper into all of the similar pumps, to make sure that there aren't any failures predicted to occur before planned maintenance.
+现在已经确定一个资产产生了多个警报,运营经理要求可靠性经理更深入地研究所有类似的泵,以确保在计划维护之前没有预测会发生任何故障。
 
-Maximo Health and Predict are targeted to the reliability engineer. Together, they provide a view of the current state of an enterprise's assets, and project future conditions of those assets.<br/>
+Maximo Health 和 Predict 面向可靠性工程师。它们共同提供企业资产当前状态的视图,并预测这些资产的未来状况。<br/>
 
-In this exercise you will understand the Health of your assets.
+在本练习中,您将了解资产的健康状况。
 
-1. Select Health Application in the right corner.<br/>
+1. 在右上角选择 Health Application。<br/>
 ![Health Overview](img/health01.png)
 
-2. Show grid view of assets in health.<br/>
+2. 在 health 中显示资产的网格视图。<br/>
 ![Health Overview](img/health02.png)
 
-<b>Value:</b>
+<b>价值:</b>
 
-Health and Predict arm the Reliability Engineer with AI-powered insights to take actions to extend the life of the assets, reduce maintenance cost, and eliminate unplanned downtime. You can sort and select the asset attributes that allow you to rank and rate which assets you should focus on.
+Health 和 Predict 为可靠性工程师提供 AI 驱动的洞察,以采取行动延长资产寿命、降低维护成本并消除计划外停机。您可以对资产属性进行排序和选择,以便对应该关注的资产进行排名和评级。
 
-As the Reliability Engineer, I'll identify assets the need attention, investigate those assets, and finally take an action to avoid unplanned downtime.
+作为可靠性工程师,我将识别需要关注的资产,调查这些资产,最后采取行动以避免计划外停机。
 
-## Review Asset's Health
+## 查看资产的健康状况
 
-From the main MAS screen, click on the Health tile to show grid view of assets in Maximo Health and Predict.
+从主 MAS 屏幕,点击 Health 磁贴以在 Maximo Health 和 Predict 中显示资产的网格视图。
 
 ![Views](img/health03.png)
 
-On the main screen, I can see a universal view of my managed assets in a familiar grid view.
+在主屏幕上,我可以在熟悉的网格视图中看到我的托管资产的通用视图。
 
-<b>Value:</b> 
+<b>价值:</b> 
 
-This is particularly valuable to me as the Reliability Engineer because I can see a mix of both IT data (from Manage) and OT data (from Monitor) together in a single view.<br/>
+这对我作为可靠性工程师特别有价值,因为我可以在单个视图中同时看到 IT 数据(来自 Manage)和 OT 数据(来自 Monitor)的混合。<br/>
 
-These assets are coming from Maximo Manage, but we can connect to other EAM systems.<br/>
+这些资产来自 Maximo Manage,但我们可以连接到其他 EAM 系统。<br/>
 
-Different views of our data can be generated to make it easier to identify our critical assets. On this grid, I can add and move columns, filter, search and sort.<br/>
+可以生成数据的不同视图,以便更容易识别我们的关键资产。在此网格上,我可以添加和移动列、筛选、搜索和排序。<br/>
 
-<b>Value:</b> 
-You have created a saved view to so that I don’t have to start over every time.  This view includes a status column, filters on my pumps, and sorts them by OEM and non-OEM.<br/> 
+<b>价值:</b> 
+您已创建了一个保存的视图,这样我就不必每次都重新开始。此视图包括状态列,筛选我的泵,并按 OEM 和非 OEM 对它们进行排序。<br/> 
 
-In this exercise you understand how to use your saved views to quickly get to your assets based on a query and filter definition.  
+在本练习中,您将了解如何使用保存的视图根据查询和筛选器定义快速访问资产。
 
-1. Select "Pump” view in the demo may be different. <br/>
+1. 选择"Pump"视图,演示中可能有所不同。<br/>
  ![Pump View](img/health04.png)
 
-In this view, I can see two columns with calculated data. You can see Health scores, which are created within the Health application for groups of assets from the Scoring tab.<br/>
+在此视图中,我可以看到两列计算数据。您可以看到健康分数,这些分数是在 Health 应用程序中从评分选项卡为资产组创建的。<br/>
 
-2. Show Health Scores under health column and Scoring Tab on the left Tab view.<br/>
+2. 在健康列下显示健康分数,并在左侧选项卡视图上显示评分选项卡。<br/>
 ![Health Scores](img/health05.png)
 
-<b>Value:</b>
-Risk tolerance can vary among industries, asset types, and enterprises.  I can define the scoring ranges specific to my tolerance levels. I can even assign my own colors.<br/>
+<b>价值:</b>
+风险容忍度可能因行业、资产类型和企业而异。我可以定义特定于我的容忍度级别的评分范围。我甚至可以分配自己的颜色。<br/>
 
- 3.  Show Predict Grouping Tab on left Tab menu. Similarly, information in the Days to Failure column comes from a predictive model from the Predict Grouping tab.<br/>
+ 3.  在左侧选项卡菜单上显示 Predict Grouping 选项卡。同样,"故障天数"列中的信息来自 Predict Grouping 选项卡的预测模型。<br/>
 ![Predict Scores](img/health06.png)
 
-4. Search `pmpd` and click Map icon.  I can see that my pumps are in various states of health, but in general, my OEM pumps are in better health.  Based on the information I’ve received from the ops manager, I suspect that my all of my non-OEM pumps are all have issues with their o-rings.<br>
+4. 搜索 `pmpd` 并点击地图图标。我可以看到我的泵处于各种健康状态,但总的来说,我的 OEM 泵健康状况更好。根据我从运营经理那里收到的信息,我怀疑我所有的非 OEM 泵都存在 O 型圈问题。<br>
 ![Grid View](img/health07.png)
 
-4. Select the map icon in the upper right of the screen.  I can also see my selected assets on a map view, with similar information.<br/>
+4. 选择屏幕右上角的地图图标。我还可以在地图视图上看到我选择的资产,其中包含类似的信息。<br/>
 ![Map View](img/health08.png)
 
-Seeing how the assets are spatially distributed may assist the Reliability engineer with identify and investigating assets at risk.  This is particularly true in the Utilities industry.
+查看资产的空间分布可能有助于可靠性工程师识别和调查有风险的资产。这在公用事业行业尤其如此。
 
-## Work Queue
-I’ll continue my investigation to determine which assets are expect to fail soon, but don’t have a maintenance plan to address the failure.  I want to do those to avoid unplanned downtime, and be more proactive in my maintenance planning.   The easiest way to do this is by using the work queue feature.<br>  
+## 工作队列
+我将继续调查以确定哪些资产预计很快会失败,但没有维护计划来解决故障。我想这样做以避免计划外停机,并在维护计划中更加主动。最简单的方法是使用工作队列功能。<br>  
 
-1.  Select Work queues tab on the Left Tab menu, and Show work queues.
+1.  在左侧选项卡菜单上选择工作队列选项卡,并显示工作队列。
 ![Select Work Queue](img/health05.png)<br/>
 ![View Work Queue](img/health06.png)
 
-Work queues are preconfigured views designed to help you find what you're looking for...and to manage your day-to-day activities.<br>  
+工作队列是预配置的视图,旨在帮助您找到所需内容...并管理日常活动。<br>  
 
-These are particularly valuable to a Reliability Engineer who needs to address a specific problem, like a water treatment plant, trying to avoid unplanned downtime. In this exercise you will learn about the OOTB Health Work Queues. That allow you to focus on specific workflow tasks around identifying missing data so that you can calculated importment key performance metrics and then find assets in need of attention and actioning.
+这些对于需要解决特定问题的可靠性工程师特别有价值,例如水处理厂,试图避免计划外停机。在本练习中,您将了解 OOTB Health 工作队列。这使您能够专注于识别缺失数据的特定工作流任务,以便您可以计算重要的关键性能指标,然后找到需要关注和采取行动的资产。
 
-2. Hover over the `Missing Data` Work Queue. There are a number of work queues included with Health and Predict.<br/>
+2. 将鼠标悬停在 `Missing Data` 工作队列上。Health 和 Predict 包含许多工作队列。<br/>
  
- There are work queues specific to Predict, like assets with a `High Probability of Failure`.<br/>
+ 有特定于 Predict 的工作队列,例如具有 `High Probability of Failure` 的资产。<br/>
 ![High Probability of Failure Work Queue](img/health07.png)
 
-3. Hover over the `Low Health` Work Queue.  There's also a work queue for identifying assets in poor health.<br/>
+3. 将鼠标悬停在 `Low Health` 工作队列上。还有一个用于识别健康状况不佳的资产的工作队列。<br/>
 ![Low Health Work Queue](img/health08.png)
 
-4. Hover over the `Missing Data` Work Queue. And there are work queues that show assets with missing data. The `Missing Data` Work Queue are extremely useful to a reliability engineer as they can help identify gaps in data necessary to calculate health scores or predictive failure model.<br/>
+4. 将鼠标悬停在 `Missing Data` 工作队列上。还有显示缺少数据的资产的工作队列。`Missing Data` 工作队列对可靠性工程师非常有用,因为它们可以帮助识别计算健康分数或预测故障模型所需的数据差距。<br/>
 ![Missing Data](img/health09.png)
 
-4. Hover over the `Failing Before PM` Work Queue. I can drill into the `Failing Before PM` work queue to see all of the assets with scores in that work queue. As a Reliability Engineer at a Water treatment plant, it is critical for me to avoid pump failures.<br/>
+4. 将鼠标悬停在 `Failing Before PM` 工作队列上。我可以深入到 `Failing Before PM` 工作队列,查看该工作队列中具有分数的所有资产。作为水处理厂的可靠性工程师,避免泵故障对我来说至关重要。<br/>
 ![Failing Before PM](img/health10.png)
 
-5. Drill in to the `Failing Before PM` Work Queue.  We can see that there are 4 pumps that have a predicted failure before their next planned maintenance date, and they are all non-OEM pumps.<br/>
+5. 深入到 `Failing Before PM` 工作队列。我们可以看到有 4 个泵在下次计划维护日期之前预测会发生故障,它们都是非 OEM 泵。<br/>
 ![Drill in for Asset List](img/health11.png)
 
 !!! note
-    Recorded in a previous date.
+    记录于之前的日期。
 
-You can see the pump here, the one with the bad o-ring that our technician discovered.<br/>
+您可以在这里看到泵,我们的技术人员发现的那个有坏 O 型圈的泵。<br/>
 
-Select a different pump in the queue as we start to manage our workload for the day, investigating and addressing all of the assets in the queue.<br/>
+在队列中选择不同的泵,因为我们开始管理当天的工作量,调查和处理队列中的所有资产。<br/>
 
-## Asset Details 
+## 资产详细信息
 
-You can understand more about the contributors to the asset Health Score and information about the asset.
+您可以了解更多有关资产健康分数的贡献者和有关资产的信息。
 
-1. Click on  `pump 1` which opens the asset detail page [DETAILS ON THIS PAGE WILL VARY AS THIS IS A LIVE DEMO SYSTEM]<br/>
+1. 点击 `pump 1`,这将打开资产详细信息页面 [此页面上的详细信息将有所不同,因为这是一个实时演示系统]<br/>
 ![Asset Details Pump](img/health12.png)
 
-The asset detail page is an incredibly useful tool for investigating assets.  We can find all the asset information presented on a single page, in easy-to-read tables, charts and graphs.<br/>
+资产详细信息页面是调查资产的非常有用的工具。我们可以在单个页面上找到所有资产信息,以易于阅读的表格、图表和图形呈现。<br/>
 
-On the top of the page, I see details about my asset, and KPIs that give me a snapshot of its current state.<br/>
+在页面顶部,我看到有关我的资产的详细信息,以及为我提供其当前状态快照的 KPI。<br/>
 
-For this asset, we have a health score of xx, which is in our yellow zone.  We can also see that it has dropped xx points since it was last calculated<br/>
+对于此资产,我们的健康分数为 xx,处于黄色区域。我们还可以看到自上次计算以来它下降了 xx 点<br/>
 
-2. Show health score and small number next to health score at the top.<br/>
+2. 在顶部显示健康分数和健康分数旁边的小数字。<br/>
 
-This asset also has a criticality and risk score.  These too can be calculated in a similar manner to the Health Score.<br/>
+此资产还具有关键性和风险分数。这些也可以以类似于健康分数的方式计算。<br/>
 
-We can see this asset has xx% of its expected remaining useful life, based on the install date and manufacturers recommended life.<br/>
+我们可以看到此资产基于安装日期和制造商推荐的寿命,具有其预期剩余使用寿命的 xx%。<br/>
 
-3. Show 'RUL' card at the top. We can see that our asset is projected to fail in the next x days, but our next maintenance isn't planned for x days.<br/>
+3. 在顶部显示 'RUL' 卡。我们可以看到我们的资产预计在接下来的 x 天内失败,但我们的下次维护计划在 x 天后。<br/>
 
-4. Show 'Next Failure' card and 'Next PM' card at the top. When we started our investigation, we knew the asset was expected to fail before its planned maintenance.  But, just by looking at the KPIs, we have additional evidence that this asset is in trouble, and that some action needs to be taken<br/>
+4. 在顶部显示 'Next Failure' 卡和 'Next PM' 卡。当我们开始调查时,我们知道资产预计在其计划维护之前失败。但是,仅通过查看 KPI,我们就有额外的证据表明此资产处于困境,需要采取一些行动<br/>
 
-Below the KPI sections, we can see more information about our asset, which comes directly from our EAM system...in this case, Maximo Manage, also included with the Maximo Application Suite. 
+在 KPI 部分下方,我们可以看到有关我们资产的更多信息,这些信息直接来自我们的 EAM 系统...在这种情况下,Maximo Manage,也包含在 Maximo Application Suite 中。
 
-5. Scroll to health details and click the arrows to show metrics. There's a breakdown of the health score drivers and factors that give us insight into what's causing its poor health.<br/>
+5. 滚动到健康详细信息并点击箭头以显示指标。有健康分数驱动因素和因素的细分,让我们深入了解导致其健康状况不佳的原因。<br/>
 ![Poor Health Score](img/health13.png)
 
-For this asset, and assets in the same group, we can see that the health score is a weighted average of open work orders, remaining useful life, and meter health.
+对于此资产以及同一组中的资产,我们可以看到健康分数是未完成工作订单、剩余使用寿命和仪表健康状况的加权平均值。
 
-## Predict Overview
+## Predict 概览
 
-1. Scroll down from asset Health into the Predictions tab and open the tab. There are several predictive models built to score against incoming sensor data for our asset.<br/>
+1. 从资产健康向下滚动到预测选项卡并打开选项卡。有几个预测模型构建用于对我们资产的传入传感器数据进行评分。<br/>
 ![Predict Tab](img/health14.png)
 
-IBM Predict includes templates to help our Data Scientist get started building models to project days to failure, calculate probability of failure, detect anomalies, and generate an asset life curve based on group asset deployment and retirement dates.  These templates include a large number of algorithms and can automatically select the one that best fits our data for the optimal outcome.  
+IBM Predict 包含模板,可帮助我们的数据科学家开始构建模型以预测故障天数、计算故障概率、检测异常,并根据组资产部署和退役日期生成资产生命曲线。这些模板包括大量算法,可以自动选择最适合我们数据的算法以获得最佳结果。
  
-Note that also included with the Maximo Application Suite is Watson Studio and Watson Machine Learning, both of which our Data Scientist can use for building, training, and maintaining predictive models.<br/>
+请注意,Maximo Application Suite 还包括 Watson Studio 和 Watson Machine Learning,我们的数据科学家可以使用它们来构建、训练和维护预测模型。<br/>
  ![Watson Machine Learning](img/health15.png)
 
-## Predicted Failure Model
+## 预测故障模型
 
-In the case of our asset, our model tells us that it is projected to fail in xx days...plus or minus xx days.  Depending on the richness of our failure history, our Data Scientist can build predictive models for specific failure modes.  And we can select those failure modes within the widget to see the projection for each.<br/>
+就我们的资产而言,我们的模型告诉我们它预计在 xx 天内失败...正负 xx 天。根据我们故障历史的丰富程度,我们的数据科学家可以为特定故障模式构建预测模型。我们可以在小部件中选择这些故障模式以查看每个模式的预测。<br/>
 
-1. Select `drop down arrow` for failure mode.                   
+1. 为故障模式选择 `drop down arrow`。                   
 ![Failure Modes](img/health16.png)
 
-2. Click the `info` icon to learn more about the field. Also in the widget, we get information about our training data in the widget to help us decide when a model should be retrained.<br/>
+2. 点击 `info` 图标以了解有关该字段的更多信息。同样在小部件中,我们获得有关小部件中训练数据的信息,以帮助我们决定何时应该重新训练模型。<br/>
 ![Info Help](img/predict5.png)
 
-3. Review the `Failure probability` widget to learn about the different failure modes impact our predictions. For example, it might show us our asset has a xx% probability of failure in the next xx months due to xx<br/>
+3. 查看 `Failure probability` 小部件以了解不同故障模式如何影响我们的预测。例如,它可能向我们显示我们的资产在接下来的 xx 个月内由于 xx 而有 xx% 的故障概率<br/>
 ![Failure Probability](img/predict4.png)
 
-Our Data Scientist can build specific models for time periods.  And just like the failure modes, we can look at the results by making different selections within our widget.<br/> 
+我们的数据科学家可以为时间段构建特定模型。就像故障模式一样,我们可以通过在小部件中进行不同的选择来查看结果。<br/> 
 
-4.  Review the `Failure probability history` widget.  Failure probability history shows how the probability of failure for each mode has changed over time.<br/>
+4.  查看 `Failure probability history` 小部件。故障概率历史显示每种模式的故障概率如何随时间变化。<br/>
 ![Failure probability history](img/predict6.png)
 
-5. Scroll to `Factors` that contribute to failures card.
-The factors that contribute to failure show which factors from our training data impacted failures the most, giving us an indication of what may lead to future failures.<br/>
+5. 滚动到导致故障的 `Factors` 卡。
+导致故障的因素显示我们训练数据中的哪些因素对故障影响最大,让我们了解可能导致未来故障的原因。<br/>
 ![Factors](img/predict7.png)
 
-6. Scroll to `Anomaly detection history` card.  Our anomaly detection model creates a threshold based on history, and we can see when our asset exceeds that threshold in our widget.<br/>
+6. 滚动到 `Anomaly detection history` 卡。我们的异常检测模型基于历史记录创建阈值,我们可以在小部件中看到我们的资产何时超过该阈值。<br/>
 ![Anomaly detection history](img/predict8.png)
 
-## Asset Timeline
-At the bottom of the page, is an asset timeline that shows us several pieces of key information about our asset in the same graph.<br/>
+## 资产时间线
+在页面底部,是一个资产时间线,它在同一图表中向我们显示有关我们资产的几条关键信息。<br/>
 
-1. Open Asset Timeline tab.<br/>
+1. 打开资产时间线选项卡。<br/>
 ![Timeline](img/asset_t2.png)
 
-For example, we can see that I have a predicted failure (on the top line of the graph), that will occur before our next planned maintenance (on the second line of the graph).<br/>
+例如,我们可以看到我有一个预测故障(在图表的顶行),它将在我们的下次计划维护(在图表的第二行)之前发生。<br/>
 
-Other information on the chart, like past work orders and inspection, provide valuable insight into our asset's history, and may support what kind of action we take.<br/>
+图表上的其他信息,如过去的工作订单和检查,提供了对我们资产历史的宝贵见解,并可能支持我们采取的行动类型。<br/>
 
-2. Hover over predicted failure.<br/>
+2. 将鼠标悬停在预测故障上。<br/>
 ![Predicted Failures](img/asset_t3.png)
 
-While each piece of information, or widget, gives us insight into the state of our asset, all of the information together, gives us a richer view, and helps us make a data-driven decision on how to address this asset.
+虽然每条信息或小部件都让我们深入了解资产的状态,但所有信息放在一起,为我们提供了更丰富的视图,并帮助我们就如何处理此资产做出数据驱动的决策。
 
 
-## Take Action
+## 采取行动
 
-1.  Scroll back to the top of the page and Select `Action` button in the right corner. Once I decide what action to take, I can do it immediately from the top of the asset detail page.<br/>
+1.  滚动回页面顶部并选择右上角的 `Action` 按钮。一旦我决定采取什么行动,我可以立即从资产详细信息页面顶部执行。<br/>
 ![Action Asset](img/action.png)
 
-2. Hover over the `Create Service Request` but don't click on it.  I can create a `service request`, `work order`, `recalculate a health score`, or `edit source asset record`.
+2. 将鼠标悬停在 `Create Service Request` 上,但不要点击它。我可以创建 `service request`、`work order`、`recalculate a health score` 或 `edit source asset record`。
 
-3. Click on `edit source record`.  In this case, I'll Edit the source asset record to adjust the next scheduled maintenance to avoid a potential failure...and unplanned downtime.<br/>
+3. 点击 `edit source record`。在这种情况下,我将编辑源资产记录以调整下次计划维护,以避免潜在故障...和计划外停机。<br/>
 
 !!! note
-    Don't create or modify source record. 
+    不要创建或修改源记录。
 
-4. Mark my asset addressed, and move to my next asset, confident that we'll avoid unplanned downtime at our water treatment plant. `[DO NOT LEAVE THIS CHECKED]` uncheck it.<br>
+4. 标记我的资产已处理,并移至我的下一个资产,确信我们将避免水处理厂的计划外停机。`[不要保持选中状态]` 取消选中它。<br>
 ![Addressed Queue](img/queue_addressed.png){:style="height:200px;width:800px"}
 
-## Summary
+## 总结
 <a name="summary"></a>
 
-As the Reliability Engineer, managing the short and long term asset planning for a water and waster water treatement facilities across multiple locations I was able to use `IBM Maximo Health` to:
-- Address short term asset needs by replacing a low-dollar o-ring could save thousands of dollars in capital costs preventing the pump from failing by vibrations. I can also use this this type of information on the Risk Matrix to ensure that we aren’t over maintaining their assets in future years which I will cover in a separate exercise. Since we address all of the pumps in our work queue, we can reduce the alerts and SRs in Monitor. This information can also be valuable for capital planning purposes. 
-
-
-
+作为可靠性工程师,管理跨多个位置的水和废水处理设施的短期和长期资产规划,我能够使用 `IBM Maximo Health` 来:
+- 通过更换低成本的 O 型圈来解决短期资产需求,可以节省数千美元的资本成本,防止泵因振动而失败。我还可以在风险矩阵上使用此类信息,以确保我们在未来几年不会过度维护其资产,我将在单独的练习中介绍。由于我们处理了工作队列中的所有泵,我们可以减少 Monitor 中的警报和服务请求。此信息对于资本规划目的也很有价值。

@@ -1,4 +1,4 @@
-# Demo Cleanup After Demo 
+# 演示后清理
 
  
 
@@ -11,7 +11,7 @@
 
  
 
-- None 
+- 无
 
  
 
@@ -19,7 +19,7 @@
 
  
 
-- None 
+- 无
 
  
 
@@ -27,34 +27,34 @@
 
  
 
-- Remove spare parts from Digital Twin exchange. 
+- 从 Digital Twin exchange 中删除备件。
 
  
 ### Assist 
 
  
 
-- A collaboration session summary is saved every time you start one. If you made one by mistake, please delete it. 
+- 每次启动协作会话时都会保存协作会话摘要。如果您错误地创建了一个,请删除它。
 
  
 ### Mobile Technician 
 
  
 
-- None 
+- 无
 
 
 ### Safety
 
 
-- None 
+- 无
 
 
 ### Health
 
-- None 
+- 无
 
 
 ### Predict
 
-- None 
+- 无
