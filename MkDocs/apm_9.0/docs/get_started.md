@@ -1,46 +1,33 @@
-# Get Started
-In this Lab you wil learn how to use Maximo Health and Predict capabilities to manage the reliability, condition and 
-performance of your assets.  
+# 入门指南
+在本实验中,您将学习如何使用 Maximo Health 和 Predict 功能来管理资产的可靠性、状况和性能。
 
-The version of Health and Predict used in this Lab is for Maximo Application Suite v9. This lab also utilizes the [Maximo 
-Models for Electrical Distribution](https://www.ibm.com/docs/en/mas-cd/mhmpmh-and-p-u/continuous-delivery?topic=overviews-maximo-models-electrical-distribution). 
-You can access the environment used in this lab on [IBM Techzone](https://techzone.ibm.com/collection/ibm-sustainability-software-maximo-application-suite-811-for-cross-industry)
+本实验中使用的 Health 和 Predict 版本适用于 Maximo Application Suite v9。本实验还使用了 [Maximo Models for Electrical Distribution](https://www.ibm.com/docs/en/mas-cd/mhmpmh-and-p-u/continuous-delivery?topic=overviews-maximo-models-electrical-distribution)。
+您可以在 [IBM Techzone](https://techzone.ibm.com/collection/mas-environments/environments) 上访问本实验中使用的环境OCP-V - Maximo Application Suite 9.1 - Cross Industry 
 
 
-## Description
+## 描述
 
-Maximo Manage includes the ability to manage assets.  Reliability Engineers can use asset data stored in Manage and other 
-data sources to better plan their asset maintenance and repairs to ensure asset reliability, reduce operational risks and 
-extend asset life.  By leveraging asset health scoring and AI algorithms to detect anomalies and predict asset failures, 
-reliability engineers can action assets in time to mitigate or avoid their negative impacts. 
+Maximo Manage 包括管理资产的能力。可靠性工程师可以使用存储在 Manage 和其他数据源中的资产数据来更好地规划资产维护和维修,以确保资产可靠性、降低运营风险并延长资产寿命。通过利用资产健康评分和 AI 算法来检测异常并预测资产故障,可靠性工程师可以及时对资产采取行动,以减轻或避免其负面影响。
 
-The intended audience for this lab are reliability engineers and data scientists who will set up and use the Maximo 
-Environment to:
-    -  Analyze their asset dats.
-    -  Understand and investigate the condition of their assets.
-    -  Identify and implement the best corrective actions to resolve asset problems.
+本实验的目标受众是可靠性工程师和数据科学家,他们将设置和使用 Maximo 环境来:
+    -  分析他们的资产数据。
+    -  了解和调查其资产的状况。
+    -  识别并实施最佳纠正措施来解决资产问题。
 
-Health and Predict includes proven  machine learning model templates to make predictions or classify asset condition 
-using asset data.  These lab exercises provide you the best practices and guided instructions for how to use Health and 
-Predict to set up and asses your asset condition scoring. Using the Matrix, Charts, Maps and Asset Grid page, you can 
-investigate at risk or poor health assets.  Finally you can action those assets using the Asset Investment optimization 
-capability to identify the best resolution maintain budget, maintain risk or reduce risk.
+Health 和 Predict 包括经过验证的机器学习模型模板,可使用资产数据进行预测或分类资产状况。这些实验练习为您提供了如何使用 Health 和 Predict 设置和评估资产状况评分的最佳实践和指导说明。使用矩阵、图表、地图和资产网格页面,您可以调查有风险或健康状况不佳的资产。最后,您可以使用资产投资优化功能对这些资产采取行动,以确定维持预算、维持风险或降低风险的最佳解决方案。
 
 
-**Pre-requisites**
+**先决条件**
 
-For this exercise ensure you have access to :
+对于本练习,请确保您可以访问:
 
-- MAS v9 [Techzone environment](https://techzone.ibm.com/collection/ibm-sustainability-software-maximo-application-suite-811-for-cross-industry)  
-- Cloud Pak for Data Watson Studio compatible with MAS v9
-- Enabled Maximo Schedule Optimization, which is enabled so that you can use Asset Investment Optimization capability included with Health.
+- MAS v9 [Techzone 环境](https://techzone.ibm.com/collection/mas-environments/environments)  
+- 与 MAS v9 兼容的 Cloud Pak for Data Watson Studio
+- 启用的 Maximo Schedule Optimization,已启用该功能,以便您可以使用 Health 中包含的资产投资优化功能。
 
-# Exercises
+# 练习
 
-These are the two exercises available for use in this lab.  The `Build a Demonstration` exercise may already been completed 
-for you if you are using an instructor provided environment.
+这是本实验中可用的两个练习。如果您使用的是讲师提供的环境,则可能已经为您完成了"构建演示"练习。
 
-1. [Build a Demonstration of Maximo Health and Predict](build_demo.md)
-2. [MAS Health and Predict Overview Task Guide](demo_script.md)
-
-
+1. [构建 Maximo Health 和 Predict 演示](build_demo.md)
+2. [MAS Health 和 Predict 概览任务指南](demo_script.md)

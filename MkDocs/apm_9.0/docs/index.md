@@ -1,30 +1,29 @@
-# Welcome to the IBM Maximo Health and Predict Lab for MAS
+# 欢迎来到 IBM Maximo Health 和 Predict 实验室 for MAS
 
 !!! note
-    This lab is still being developed, incomplete and may have errors.  We provide it to get your [feedback](https://github.com/IBM/maximo-labs/issues/new) and allow you to reference the materials as the labs are built.
+    此实验仍在开发中,不完整且可能存在错误。我们提供它是为了获取您的[反馈](https://github.com/IBM/maximo-labs/issues/new),并允许您在构建实验时参考材料。
 
-This lab provides step-by-step instructions and code examples to help you learn about the product capabilities in IBM 
-Maximo Health and Predict v9.0.  We have added new exercises for Meantime Between Failure Chart.
+本实验提供分步说明和代码示例,帮助您了解 IBM Maximo Health 和 Predict v9.0 中的产品功能。我们为平均故障间隔时间图表添加了新练习。
 
-You will:
+您将:
 
-- Set up a demonstration of Maximo Health and Predict, unless this step has already been completed for you by your instructor.
-- Complete a Maximo Health and Predict over task guide which includes Maximo Models for Electrical Distribution accelerator.
+- 设置 Maximo Health 和 Predict 的演示,除非您的讲师已经为您完成了此步骤。
+- 完成 Maximo Health 和 Predict 任务指南,其中包括用于配电的 Maximo 模型加速器。
 
 
-Before getting started ensure you have completed the prerequisites: [Prerequisites](prereqs.md)
+在开始之前,请确保您已完成先决条件:[先决条件](prereqs.md)
 
-## Learn more
+## 了解更多
 
-- [Maximo Developer Site](https://developer.ibm.com/components/maximo/)
-- [Maximo Application Suite Documentation](https://www.ibm.com/docs/en/mas)
+- [Maximo 开发者网站](https://developer.ibm.com/components/maximo/)
+- [Maximo Application Suite 文档](https://www.ibm.com/docs/en/mas)
 
-## License
+## 许可证
 
-See the [Copyright page](../copyright) for how this Maximo Hands on Lab Exercise is licensed.
+有关此 Maximo 动手实验练习的许可方式,请参阅[版权页面](../copyright)。
 
 ---
 
-**Updated: 2023-08-01**
+**更新时间: 2023-08-01**
 
 ---

@@ -1,21 +1,17 @@
-# Pre-Requisite Instructions
+# 先决条件说明
 
-This Hands on Lab requires:
+本动手实验需要:
 
-* Your instructor has provide MAS v9 [Techzone environment](https://techzone.ibm.com/collection/ibm-sustainability-software-maximo-application-suite-811-for-cross-industry)  used in the lab.  
+* 您的讲师已提供实验中使用的 MAS v9 [Techzone 环境](https://techzone.ibm.com/collection/ibm-sustainability-software-maximo-application-suite-811-for-cross-industry)。
 
-* A student user id and password.
+* 学生用户 ID 和密码。
 
-* Network Access to a Maximo Application Suite v9 environment. 
+* 访问 Maximo Application Suite v9 环境的网络权限。
 
-* Internet access to these [lab instructions](https://ibm.github.io/maximo-labs/apm_8.7/)
+* 访问这些[实验说明](https://ibm.github.io/maximo-labs/apm_8.7/)的互联网访问权限
 
-* User access to a Maximo Application Suite environment.  Your Exercise facilitator can provide you with the information to access the environment.
+* 访问 Maximo Application Suite 环境的用户权限。您的练习协调员可以为您提供访问环境的信息。
 
-* A laptop with a browser and network access to the Maximo Application Suite environment and these labs.
+* 一台带有浏览器的笔记本电脑,可以通过网络访问 Maximo Application Suite 环境和这些实验。
 
-* [Link](https://tenant1.home.masinst1.ibmmam.com/) to the Maximo early program environment. 
-
-
-
-
+* Maximo 早期计划环境的[链接](https://tenant1.home.masinst1.ibmmam.com/)。

@@ -1,82 +1,81 @@
-# Introduction to Health Scoring
+# 健康评分介绍
 
-What is a Health score? How should I set up my scores? How can I add condition and other types of data into my score calculations?
+什么是健康分数?我应该如何设置我的分数?如何将状况和其他类型的数据添加到我的分数计算中?
 
-The following posts and labs will address all of those questions.
+以下帖子和实验将解决所有这些问题。
 
-Whether you are doing you are doing preventive maintenance, condition-based maintenance, predictive maintenance, setting up scores is *key*. 
+无论您是在进行预防性维护、基于状况的维护还是预测性维护,设置分数都是*关键*。
 
-Contrary to popular belief, you can start using scores in Maximo Health just with basic asset and work order data. You can add more complexity to your scores later once you have more data.
+与普遍看法相反,您只需使用基本的资产和工作订单数据即可开始在 Maximo Health 中使用分数。一旦您有更多数据,您可以稍后为分数添加更多复杂性。
 
-## What is a Health score? ##
+## 什么是健康分数? ##
 
-We need to differentiated a "Health" score and a "health" score.
+我们需要区分"Health"分数和"health"分数。
 
-When referring to a "Health" score (capital "H"), we are talking about a score from the Maximo Health application. It is a calculated representation of some aspect of your asset. It can be a score that indicates an asset's condition, maintenance health, criticality, risk, sustainability, safety, etc.
+当提到"Health"分数(大写"H")时,我们谈论的是来自 Maximo Health 应用程序的分数。它是资产某个方面的计算表示。它可以是指示资产状况、维护健康、关键性、风险、可持续性、安全性等的分数。
 
-Generally, we recommend some basic score types to start:
+通常,我们建议一些基本的分数类型来开始:
 
-- Health score
-- Criticality score
-- Risk score
+- 健康分数
+- 关键性分数
+- 风险分数
 
-## Why do I need Health scores? ##
+## 为什么我需要健康分数? ##
 
-You need to setup scores in Health if you want to use Maximo Application Suite (MAS) to do any of the following:
+如果您想使用 Maximo Application Suite (MAS) 执行以下任何操作,则需要在 Health 中设置分数:
 
-- Preventive maintenance
-- Condition-based maintenance
-- Risk-based maintenanece
-- Predictive maintenance
+- 预防性维护
+- 基于状况的维护
+- 基于风险的维护
+- 预测性维护
 
-By setting up Health scores, you can easily view and analyze your assets' performance.
+通过设置健康分数,您可以轻松查看和分析资产的性能。
 
-A Health score takes all of an asset’s data from IT and OT sources and represents an aspect of an asset's performance as a number: 0 being very poor performing and 100 being very good performing.
+健康分数从 IT 和 OT 来源获取资产的所有数据,并将资产性能的某个方面表示为一个数字:0 表示性能非常差,100 表示性能非常好。
 
-Understanding asset scores can help an engineer, maintenance planner, or asset planner better make decisions to reduce unplanned downtime, prevent unnecessary costs, and extend an asset's life:
+了解资产分数可以帮助工程师、维护计划员或资产计划员更好地做出决策,以减少计划外停机、防止不必要的成本并延长资产寿命:
 
-- decide what work orders to carry out to prevent expensive unplanned downtime today
-- plan maintenance or replacement to avoid expensive unplanned downtime in the future
+- 决定执行哪些工作订单以防止今天昂贵的计划外停机
+- 计划维护或更换以避免将来昂贵的计划外停机
 
-## What data do I need to get started? ##
+## 我需要什么数据才能开始? ##
 
-You only need two things to start using scores in Health:
+您只需要两件事即可开始在 Health 中使用分数:
 
-1. Assets loaded into Maximo Manage/EAM (or use App Connect to load non-Maximo data into MAS)
-2. At least some work order data
+1. 加载到 Maximo Manage/EAM 中的资产(或使用 App Connect 将非 Maximo 数据加载到 MAS 中)
+2. 至少一些工作订单数据
  
-Yes, it is that easy!
+是的,就是这么简单!
 
-Maximo Health can also handle more complex data, such as Monitor condition data, historical data, cost and financial data, etc.
+Maximo Health 还可以处理更复杂的数据,例如 Monitor 状况数据、历史数据、成本和财务数据等。
 
-## What basic Health scores do I need? ##
+## 我需要哪些基本的健康分数? ##
 
-- **Health, or asset health context**
-    - *Health* is an index that is an aggregate score for the health of an asset and is calculated from the historical performance of the asset and the measured physical condition. The higher the value for the *asset health index*, the less likely the asset will fail. Example factors that are used to calculate the heath index are age, manufacturer, and overload time.
+- **健康或资产健康上下文**
+    - *健康*是一个指数,是资产健康的综合分数,根据资产的历史性能和测量的物理状况计算得出。*资产健康指数*的值越高,资产失败的可能性就越小。用于计算健康指数的示例因素包括年龄、制造商和过载时间。
 
-- **Criticality**
-    - *Criticality* is business importance of an asset that measures the severity of the customer, financial, and safety impact if the asset were to fail. *Criticality* can have a combination of factors, a common one being the numbers customers that are supported by an asset.
+- **关键性**
+    - *关键性*是资产的业务重要性,衡量如果资产失败对客户、财务和安全的影响严重程度。*关键性*可以有多种因素的组合,常见的一种是资产支持的客户数量。
 
-- **Risk**
-    - *Risk* is the risk to the business of a failure in the network. The higher the value for *risk*, the more risk there is to the business. It is usually a product of an asset's *health* and *criticality*.
+- **风险**
+    - *风险*是网络中故障对业务的风险。*风险*的值越高,对业务的风险就越大。它通常是资产的*健康*和*关键性*的乘积。
 
-## How to read a Health score ##
+## 如何阅读健康分数 ##
 
-A Health score is usually presented as a value from 0 to 100. It is a normalized value so that a it can be compared with other assets in a group, site, system, fleet, or organization. Depending on the score type, 100 can be good (ie. indicating perfect asset health) or 100 can be (ie. indicating extremely high risk of failure)
+健康分数通常表示为从 0 到 100 的值。它是一个标准化值,以便可以与组、站点、系统、车队或组织中的其他资产进行比较。根据分数类型,100 可以是好的(即表示完美的资产健康),或者 100 可以是坏的(即表示极高的故障风险)
 
-- *Health* returns values in the range 0 to 100 where 100 is as new condition and 0 is very poor condition.
+- *健康*返回 0 到 100 范围内的值,其中 100 表示全新状况,0 表示非常差的状况。
 
-- *Criticality* is rated from 0 to 100 where 0 is not critical at all and 100 is very critical.
+- *关键性*的评级从 0 到 100,其中 0 表示完全不关键,100 表示非常关键。
 
-- *Risk* is a percentage value given by the product of the values for *Health* and *Criticality*, where 0 is lowest risk and 100 is highest risk.
+- *风险*是由*健康*和*关键性*的值的乘积给出的百分比值,其中 0 是最低风险,100 是最高风险。
 
 
-Please view the following topics for information on using asset scoring in Maximo Health.
+请查看以下主题,了解有关在 Maximo Health 中使用资产评分的信息。
 
-**Topics**
+**主题**
 
-- How Health Score Configurations Are Determined
-- Understanding OOTB Health Scores
-- How to Edit OOTB Health Score Configurations
-- Troubleshooting: Why Are My Scores Aren’t Showing?
-
+- 如何确定健康分数配置
+- 了解 OOTB 健康分数
+- 如何编辑 OOTB 健康分数配置
+- 故障排除:为什么我的分数没有显示?
