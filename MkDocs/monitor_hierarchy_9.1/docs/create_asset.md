@@ -18,7 +18,7 @@
 1. 从左侧菜单栏的资产下导航到资产。
 ![新建资产](img/asset_images/1_asset.png)&nbsp;&nbsp;
 
-2. 设置资产名称、描述、父级和位置并保存
+2. 点击“新资产”，然后设置资产名称、描述、父级和位置并保存
 ![新建资产](img/asset_images/2_asset.png)&nbsp;&nbsp;
 
 ---

@@ -15,7 +15,7 @@
 !!! info
     要激活组织，我们必须拥有组织的财务详细信息。
 
-1. 要激活组织，我们需要在会计科目表中创建清算账户。因此从财务部分导航到会计科目表。
+1. 要激活组织，我们需要在财务下面的科目表中创建清算账户。因此从财务部分导航到会计科目表。
 ![导航到会计科目表](img/activate_imgs/1_org_active.png)&nbsp;&nbsp;
 
 2. 请选择要为其添加总账账户的组织。
@@ -33,6 +33,8 @@
 
 5. 展开 IBM_ORG 的总账账户
 ![展开](img/activate_imgs/10_org_active.png)&nbsp;&nbsp;
+![展开](img/activate_imgs/10-1_org_active.png)&nbsp;&nbsp;
+
 
 6. 为每个段（成本中心、活动、资源、要素）选择总账账户
 ![选择总账账户段](img/activate_imgs/11_org_active.png)&nbsp;&nbsp;
@@ -44,7 +46,7 @@
 ![导航到组织](img/activate_imgs/13_org_active.png)&nbsp;&nbsp;
 ![清算账户详细信息](img/activate_imgs/14_org_active.png)&nbsp;&nbsp;
 
-9. 选中激活复选框。
+9. 选中激活复选框,然后右上角保存。
 ![激活并保存组织](img/activate_imgs/15_org_active.png)&nbsp;&nbsp;
 
 ---
