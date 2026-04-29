@@ -26,8 +26,8 @@ RBAC模块中的所有练习要求您具备：
      - 然后点击`Create an IBM ID`
 
 4. RBAC相关配置访问权限：
-   - 能够访问**Suite > Security > Security Groups**
-   - 能够访问**Suite > Security > Users**
+   - 能够访问**Suite > 安全性 > 安全组**
+   - 能够访问**Suite > 安全性 > 用户**
 
 ---
 
@@ -39,7 +39,7 @@ RBAC模块中的所有练习要求您具备：
 
 在开始之前，请验证：
 - 您可以登录到MAS环境
-- 您可以访问**Security**菜单
+- 您可以访问**安全性**菜单
 - 您能够创建或修改安全组和用户
 
 ---
