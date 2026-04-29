@@ -30,10 +30,10 @@
 !!! tip
     如果其他人在同一 Maximo Application Suite 环境中遵循本实验，网关 ID 和类型中的 XX 应该是您的首字母缩写。
 
-确保网关配置为托管并点击 `Save`：
+确保网关配置为托管并点击 `保存`：
 ![创建网关](img/create_gateway_04.png)</br></br>
 
-您现在将看到您的新托管网关，包括网关列表和网关定义中的 `Managed` 标签：
+您现在将看到您的新托管网关，包括网关列表和网关定义中的 `受管` 标签：
 ![创建网关](img/create_gateway_05.png)</br>
 
 !!! note
@@ -45,10 +45,10 @@
 
 #### 将您的新设备添加到托管网关
 
-在托管网关中点击 `Add device`：</br>
+在托管网关中点击 `添加设备`：</br>
 [![添加设备]][添加设备]{target=_blank}</br>
 
-`Use device library` 将自动被选中，因为托管网关仅支持来自库的设备。只需点击 `Continue`：
+`设用设备库` 将自动被选中，因为托管网关仅支持来自库的设备。只需点击 `继续`：
 [![使用设备库]][使用设备库]
 
 !!! note
@@ -59,11 +59,11 @@
 
 </br>
 是时候添加 Json 模拟器设备了。</br>
-在制造商下拉列表中搜索 `IBM` 并选择它。点击 `Next`：</br>
+在制造商下拉列表中搜索 `IBM` 并选择它。点击 `下一步`：</br>
 ![搜索 IBM](img/add_device_03.png)</br></br>
 
-选择 HTTP Device - main 产品，选择 `Simulator-1` 并点击 `Next`：</br>
-![选择 Simulator-1](img/add_device_04.png)</br></br>
+选择 HTTP Device - main 产品，选择 `Simulate-Device-01` 并点击 `下一步`：</br>
+![选择 Simulate-Device-01](img/add_device_04.png)</br></br>
 
 为端点选择 `http` 协议：</br>
 
@@ -72,7 +72,7 @@
 
 </br>
 现在是时候使用模拟器的 IP 地址和端口号 `127.0.0.1`、`8080` 了。</br>
-点击 `Next`；
+点击 `下一步`；
 ![定义 IP 地址](img/add_device_05.png)
 
 !!! tip 
@@ -85,7 +85,7 @@
 ![配置设备 ID](img/add_device_06.png)</br></br>
 
 您将创建自己的设备类型。由于您尚未这样做，您只需键入 `XX_Json_Type`，其中您将 XX 替换为您的首字母缩写：</br>
-点击新设备类型以创建它并点击 `Next`：
+点击新设备类型以创建它并点击 `下一步`：
 ![配置设备类型](img/add_device_07.png)
 
 !!! tip 
@@ -95,7 +95,7 @@
 将数据频率定义为 30000（30 秒），当您选择指标时它将自动使用：</br>
 ![配置频率](img/add_device_08.png)</br></br>
 
-选择所有指标。点击 `Save`：
+选择所有指标。点击 `保存`：
 ![选择数据点](img/add_device_09.png)
 
 </br>

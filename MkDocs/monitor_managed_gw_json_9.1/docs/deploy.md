@@ -16,7 +16,7 @@
 
 ## 部署托管网关
 
-在网关列表中查看您的托管网关时，按 `View deployment instructions`。</br>
+在网关列表中查看您的托管网关时，按 `查看部署指示信息`。</br>
 点击 docker 命令将其复制到剪贴板：
 ![部署指南](img/deploy_verify_01.png)</br></br>
 
@@ -42,10 +42,10 @@
 点击打开 `Json-over-http_Simulator-1` 设备：
 ![打开 Json 设备](img/deploy_verify_03.png)</br></br>
 
-导航到 `Recent event` 并等待半分钟（您知道添加设备时定义的那 30000 毫秒），直到第一条消息传入。</br>
+导航到 `最近事件` 并等待半分钟（您知道添加设备时定义的那 30000 毫秒），直到第一条消息传入。</br>
 ![](img/deploy_verify_04.png)</br></br>
 
-点击 `View payload` 并查看发送到事件名称 `status` 的数据点：</br>
+点击 `查看有效内容` 并查看发送到事件名称 `status` 的数据点：</br>
 ![在 Connect 中查看设备有效负载](img/deploy_verify_05.png)</br></br>
 
 这些是您在将设备添加到托管网关时选择的数据点：
@@ -65,7 +65,7 @@
 </br>
 
 
-存储的数据可能会用于 Siemens S7 设备的仪表板：</br>
+存储的数据可能会用于设备的仪表板：</br>
 ![在 Connect 中查看设备有效负载](img/deploy_verify_06.png)</br></br>
 
 ---
