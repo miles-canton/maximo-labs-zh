@@ -16,7 +16,7 @@
 
 ## 部署托管网关
 
-在网关列表中查看您的托管网关时，按`View deployment instructions`。</br>
+在网关列表中查看您的托管网关时，按`查看部署指示信息`。</br>
 点击docker命令将其复制到剪贴板：
 ![部署指南](img/deploy_verify_01.png)</br></br>
 
@@ -40,23 +40,23 @@
 点击打开`XX_Lenze_i550`设备：
 ![打开Lenze设备](img/deploy_verify_03.png)</br></br>
 
-导航到`Recent event`并等待一分钟（您知道添加设备时定义的那60000毫秒），直到第一条消息传入。</br>
+导航到`最近事件`并等待一分钟（您知道添加设备时定义的那60000毫秒），直到第一条消息传入。</br>
 ![](img/deploy_verify_04.png)</br></br>
 
-点击`View payload`并查看发送到事件名称`status`的数据点：</br>
+点击`查看有效内容`并查看发送到事件名称`status`的数据点：</br>
 ![在Connect中查看设备有效负载](img/deploy_verify_05.png)</br></br>
 
 这些是您在将设备添加到托管网关时选择的数据点：
 
 ``` json
 {
-    "timestamp": "2025-07-11T06:44:12.542628Z",
-    "actual-torque-NP75X_percent": 62.900000000000006,
-    "dc-bus-voltage-7EVKN_volt": 415,
-    "frequency-99T9D_hertz": 37.25,
-    "heatsink-temperature-Z17QE_degreeCelsius": 24.8,
-    "motor-current-R0KJF_ampere": 87,
-    "motor-voltage-DNNOO_volt": 699
+    "timestamp": "2026-04-29T03:35:26.440485Z",
+    "actual-torque-IXF39_percent": 67.2,
+    "dc-bus-voltage-6SGP1_volt": 397,
+    "frequency-A68E2_hertz": 36.7,
+    "heatsink-temperature-44MOQ_degreeCelsius": 23.1,
+    "motor-current-KVY0W_ampere": 93,
+    "motor-voltage-NL0H5_volt": 701
 }
 ```
 </br>
@@ -64,5 +64,29 @@
 存储的数据可能会用于VFD设备的仪表板：</br>
 ![在Connect中查看设备有效负载](img/deploy_verify_06.png)</br></br>
 
+如果内有看到设备的Overview仪表板，可以按照下面的方式创建。
+点击创建仪表板
+![创建仪表板](img/create-dashboard.png)</br>
+
+选择仪表板类型
+![选择仪表板类型](img/dashboard-overview.png)</br>
+
+点击时间序列折线图，添加卡片
+![添加折线图](img/dashboard-overview-01)</br>
+
+填写和选择相关数据，然后点击右下角添加卡，继续添加卡片
+![添加卡片](img/dashboard-overview-02)</br>
+
+点击时间序列折线图，添加另外一个卡片
+![添加卡片](img/dashboard-overview-03)</br>
+
+填写和选择相关数据，然后点击保存并关闭
+![添加卡片](img/dashboard-overview-04)</br>
+
+回到设备类型页面，可以看到仪表板已经创建了
+![仪表板已经创建了](img/dashboard-overview-05)</br></br>
+   
+ 
+   </br>
 ---
 恭喜您已成功部署并验证了连接性和数据流入，从而完成了本Maximo实验。

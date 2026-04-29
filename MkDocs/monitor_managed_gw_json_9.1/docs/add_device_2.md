@@ -14,10 +14,10 @@
 - 选择它，您还应该看到由您的托管网关处理的设备：</br>
 ![查看您的托管网关](img/2nd_device_01.png)</br></br>
 
-在托管网关中点击 `Add device`：</br>
+在托管网关中点击 `添加设备`：</br>
 [![添加设备]][添加设备]{target=_blank}</br>
 
-`Use device library` 将自动被选中，因为托管网关仅支持来自库的设备。只需点击 `Continue`：
+`使用设备库` 将自动被选中，因为托管网关仅支持来自库的设备。只需点击 `继续`：
 [![使用设备库]][使用设备库]
 
 !!! note
@@ -28,10 +28,10 @@
 
 </br>
 是时候添加 Json simulator-3 设备了。</br>
-在制造商下拉列表中搜索 `IBM` 并选择它。点击 `Next`：</br>
+在制造商下拉列表中搜索 `IBM` 并选择它。点击 `下一步`：</br>
 ![搜索 IBM](img/2nd_device_04.png)</br></br>
 
-选择 HTTP Device - main 产品，选择 `Simulator-3` 并点击 `Next`：</br>
+选择 HTTP Device - main 产品，选择 `Simulator-3` 并点击 `下一步`：</br>
 ![选择 Simulator-3](img/2nd_device_05.png)</br></br>
 
 为端点选择 `http` 协议：</br>
@@ -41,7 +41,7 @@
 
 </br>
 现在是时候使用模拟器的 IP 地址和端口号 `127.0.0.1`、`8080` 了。</br>
-点击 `Next`；
+点击 `下一步`；
 ![定义 IP 地址](img/2nd_device_06.png)
 
 !!! tip 
@@ -50,11 +50,11 @@
 </br>
 将设备 ID 定义为 `Json-over-http_Simulator-3`。</br>
 您可以看到产品类型为自定义设备，即添加到设备库的所有自定义设备的产品类型。</br>
-点击 `Device type`，您应该看到：
+点击 `设备类型`，您应该看到：
 ![配置设备 ID](img/2nd_device_07.png)</br></br>
 
 您可以选择旧设备类型或创建新设备类型：</br>
-点击 `XX_Json_Type` 并点击 `Next`：
+点击 `XX_Json_Type` 并点击 `下一步`：
 ![配置设备类型](img/2nd_device_08.png)
 
 !!! tip 
