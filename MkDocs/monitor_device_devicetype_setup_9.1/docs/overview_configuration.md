@@ -31,14 +31,14 @@
 
 ![Device Type Creation](img/overview_configuration04.png)</br></br>
 
-这将创建设备类型并重定向到指标页面。
+这将创建设备类型并重定向到度量值页面。
 
 ![Device Type Creation](img/overview_configuration05.png)</br></br>
 
 </br>
 
 
-## 查看概览选项卡
+## 查看“概况”选项卡
 
 此选项卡提供设备类型的详细描述。我们可以看到管道组状态，对于新创建的设备类型，该状态默认启用。
 

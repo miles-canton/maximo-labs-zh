@@ -35,11 +35,11 @@
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [Maximo Monitor 设备和设备类型设置](monitor_device_devicetype_setup_9.1/) | [设备类型创建](monitor_device_devicetype_setup_9.1/overview_configuration) |
-|                                                                | [设备类型中的指标](monitor_device_devicetype_setup_9.1/add_metrics)                               |
+|                                                                | [设备类型中的度量](monitor_device_devicetype_setup_9.1/add_metrics)                               |
 |                                                                | [设备类型中的维度](monitor_device_devicetype_setup_9.1/add_dimensions)                          |
 |                                                                | [添加和编辑设备](monitor_device_devicetype_setup_9.1/add_edit_device)                             |
 |                                                                | [设备与资产/位置的关系](monitor_device_devicetype_setup_9.1/device_relation)          |
-|                                                                | [计算指标](monitor_device_devicetype_setup_9.1/add_calc_metrics)                              |
+|                                                                | [计算度量](monitor_device_devicetype_setup_9.1/add_calc_metrics)                              |
 |                                                                | [仪表板](monitor_device_devicetype_setup_9.1/devicetype_dashboard)                                   |
 |                                                                | [归档/恢复/删除设备类型](monitor_device_devicetype_setup_9.1/archive_devicetype)            |
 
@@ -89,11 +89,11 @@
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [Maximo Monitor 仪表-指标映射](monitor_meter_metric_mapping_9.1/) | [设置仪表/指标映射](monitor_meter_metric_mapping_9.1/setup)       |
+| [Maximo Monitor 仪表-度量映射](monitor_meter_metric_mapping_9.1/) | [设置仪表/度量映射](monitor_meter_metric_mapping_9.1/setup)       |
 |                                                                | [在 Manage UI 中查看仪表数据](monitor_meter_metric_mapping_9.1/view_meter_data/) |
 |                                                                | [切换同步启用/禁用](monitor_meter_metric_mapping_9.1/toggle_sync)            |
-|                                                                | [编辑仪表/指标映射](monitor_meter_metric_mapping_9.1/edit)                  |
-|                                                                | [删除仪表/指标映射](monitor_meter_metric_mapping_9.1/delete)              |
+|                                                                | [编辑仪表/度量映射](monitor_meter_metric_mapping_9.1/edit)                  |
+|                                                                | [删除仪表/度量映射](monitor_meter_metric_mapping_9.1/delete)              |
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
