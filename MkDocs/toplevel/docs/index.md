@@ -17,39 +17,9 @@
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [Maximo Monitor 添加自定义 Json-over-http 设备](monitor_managed_gw_json_9.1/) | [设置模拟器环境](monitor_managed_gw_json_9.1/setup_simulator) |
-| <i>来自设备库的自定义设备</i>                       | [将设备添加到库](monitor_managed_gw_json_9.1/add_device_1)                            |
-|                                                                | [创建托管网关](monitor_managed_gw_json_9.1/create_gateway)                         |
-|                                                                | [部署并验证数据流入](monitor_managed_gw_json_9.1/deploy)                            |
-|                                                                | [将 Simulator-3 设备添加到网关](monitor_managed_gw_json_9.1/add_device_2)              |
-|                                                                | [重新部署并在仪表板中查看数据](monitor_managed_gw_json_9.1/re-deploy)                |
-
-| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
-|----------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [Maximo Monitor 添加自定义 Modbus 设备](monitor_modbus_custom_device_9.1/) | [设置模拟器环境](monitor_modbus_custom_device_9.1/setup_simulator) |
-| <i>来自设备库的自定义设备</i>                       | [将设备添加到库](monitor_modbus_custom_device_9.1/add_device_using_CSV)                  |
-|                                                                | [创建托管网关](monitor_modbus_custom_device_9.1/create_gateway_with_device)             |
-|                                                                | [部署并验证数据流入](monitor_modbus_custom_device_9.1/deploy)               |
-
-| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
-|----------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [Maximo Monitor 基于角色的访问控制](monitor_role_based_access_control_9.1/)  | [创建安全组](monitor_role_based_access_control_9.1/create_security_groups) |
 |                                                                | [创建用户并分配组](monitor_role_based_access_control_9.1/create_users)                        |
 |                                                                | [登录和访问行为](monitor_role_based_access_control_9.1/user_access_behavior)                     |
-
-| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
-|----------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [Maximo Monitor 自定义函数](monitor_custom_function_9.1/) | [设置启动包](monitor_custom_function_9.1/setup_starter_package) |
-|                                                                | [编写自定义函数](monitor_custom_function_9.1/write_custom_function)                  |
-|                                                                | [注册自定义函数](monitor_custom_function_9.1/register_custom_function)             |
-|                                                                | [应用自定义函数](monitor_custom_function_9.1/apply_custom_function)               |
-
-| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
-|----------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [Maximo Monitor 警报设置](monitor_alerts_9.1/)             | [在设备类型设置警报](monitor_alerts_9.1/setup_alert)                      |
-|                                                                | [在设备/设备类型查看警报](monitor_alerts_9.1/view_alert)                 |
-|                                                                | [在不同层次结构级别设置警报](monitor_alerts_9.1/hierarchyAlerts)    |
-|                                                                | [基于警报创建服务请求](monitor_alerts_9.1/servicerequest)      |
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
@@ -63,14 +33,6 @@
 |                                                                | [层次结构视图](monitor_hierarchy_9.1/hierarchy_view)     |
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
-|----------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [Maximo Monitor 仪表-指标映射](monitor_meter_metric_mapping_9.1/) | [设置仪表/指标映射](monitor_meter_metric_mapping_9.1/setup)       |
-|                                                                | [在 Manage UI 中查看仪表数据](monitor_meter_metric_mapping_9.1/view_meter_data/) |
-|                                                                | [切换同步启用/禁用](monitor_meter_metric_mapping_9.1/toggle_sync)            |
-|                                                                | [编辑仪表/指标映射](monitor_meter_metric_mapping_9.1/edit)                  |
-|                                                                | [删除仪表/指标映射](monitor_meter_metric_mapping_9.1/delete)              |
-
-| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [Maximo Monitor 设备和设备类型设置](monitor_device_devicetype_setup_9.1/) | [设备类型创建](monitor_device_devicetype_setup_9.1/overview_configuration) |
 |                                                                | [设备类型中的指标](monitor_device_devicetype_setup_9.1/add_metrics)                               |
@@ -82,11 +44,18 @@
 |                                                                | [归档/恢复/删除设备类型](monitor_device_devicetype_setup_9.1/archive_devicetype)            |
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
-|----------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [Maximo Monitor 托管网关 - OPC UA](monitor_managed_gw_opcua_9.1/) | [设置模拟器环境](monitor_managed_gw_opcua_9.1/setup_simulator) |
-| <i>来自设备库的自定义设备</i>                       | [将设备添加到库](monitor_managed_gw_opcua_9.1/add_device)                    |
-|                                                                | [创建托管网关](monitor_managed_gw_opcua_9.1/create_gateway)               |
-|                                                                | [部署并验证数据流入](monitor_managed_gw_opcua_9.1/deploy)                  |
+|----------------------------------------------------------------|------------------------------------------------------------------------------------|
+| [Maximo Monitor 添加自定义 Json-over-http 设备](monitor_managed_gw_json_9.1/) | [设置模拟器环境](monitor_managed_gw_json_9.1/setup_simulator) |
+| <i>来自设备库的自定义设备</i>                       | [将设备添加到库](monitor_managed_gw_json_9.1/add_device_1)                            |
+|                                                                | [创建托管网关](monitor_managed_gw_json_9.1/create_gateway)                         |
+|                                                                | [部署并验证数据流入](monitor_managed_gw_json_9.1/deploy)                            |
+|                                                                | [将 Simulator-3 设备添加到网关](monitor_managed_gw_json_9.1/add_device_2)              |
+|                                                                | [重新部署并在仪表板中查看数据](monitor_managed_gw_json_9.1/re-deploy)                |
+
+| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|----------------------------------------------------------------|------------------------------------------------------------------------------------|
+| [Maximo Monitor Modbus 模拟器](monitor_modbus_simulator/)   | [使用 Docker 镜像](monitor_modbus_simulator/docker)                            |
+|                                                                | [使用 Node-RED 脚本](monitor_modbus_simulator/node-red)                       |
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------|
@@ -99,20 +68,39 @@
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [Maximo Monitor Modbus 模拟器](monitor_modbus_simulator/)   | [使用 Docker 镜像](monitor_modbus_simulator/docker)                            |
-|                                                                | [使用 Node-RED 脚本](monitor_modbus_simulator/node-red)                       |
+| [Maximo Monitor 添加自定义 Modbus 设备](monitor_modbus_custom_device_9.1/) | [设置模拟器环境](monitor_modbus_custom_device_9.1/setup_simulator) |
+| <i>来自设备库的自定义设备</i>                       | [将设备添加到库](monitor_modbus_custom_device_9.1/add_device_using_CSV)                  |
+|                                                                | [创建托管网关](monitor_modbus_custom_device_9.1/create_gateway_with_device)             |
+|                                                                | [部署并验证数据流入](monitor_modbus_custom_device_9.1/deploy)               |
+
+| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|----------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [Maximo Monitor 托管网关 - OPC UA](monitor_managed_gw_opcua_9.1/) | [设置模拟器环境](monitor_managed_gw_opcua_9.1/setup_simulator) |
+| <i>来自设备库的自定义设备</i>                       | [将设备添加到库](monitor_managed_gw_opcua_9.1/add_device)                    |
+|                                                                | [创建托管网关](monitor_managed_gw_opcua_9.1/create_gateway)               |
+|                                                                | [部署并验证数据流入](monitor_managed_gw_opcua_9.1/deploy)                  |
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [Maximo Monitor Cisco Spaces 集成](monitor_cisco_spaces_integration_9.1/) | [Cisco Spaces 概述](monitor_cisco_spaces_integration_9.1/cisco_spaces_overview) |
-|                                                                | [生成激活令牌](monitor_cisco_spaces_integration_9.1/generate_activation_token)           |
-|                                                                | [配置 Cisco Spaces 集成](monitor_cisco_spaces_integration_9.1/cisco_spaces_integration)   |
-|                                                                | [位置列表概述](monitor_cisco_spaces_integration_9.1/locations_list)                        |
-|                                                                | [订阅 Cisco Space 位置](monitor_cisco_spaces_integration_9.1/subscribe)                      |
-|                                                                | [Cisco Spaces 位置指标](monitor_cisco_spaces_integration_9.1/location_metrics)                |
-|                                                                | [在 MREF 位置生成热图](monitor_cisco_spaces_integration_9.1/heatmap)                     |
-|                                                                | [取消订阅 Cisco Space 位置](monitor_cisco_spaces_integration_9.1/unsubscribe)                  |
-|                                                                | [编辑/删除 Cisco Spaces 配置](monitor_cisco_spaces_integration_9.1/edit_delete_config)   |
+| [Maximo Monitor 警报设置](monitor_alerts_9.1/)             | [在设备类型设置警报](monitor_alerts_9.1/setup_alert)                      |
+|                                                                | [在设备/设备类型查看警报](monitor_alerts_9.1/view_alert)                 |
+|                                                                | [在不同层次结构级别设置警报](monitor_alerts_9.1/hierarchyAlerts)    |
+|                                                                | [基于警报创建服务请求](monitor_alerts_9.1/servicerequest)      |
+
+| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|----------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [Maximo Monitor 仪表-指标映射](monitor_meter_metric_mapping_9.1/) | [设置仪表/指标映射](monitor_meter_metric_mapping_9.1/setup)       |
+|                                                                | [在 Manage UI 中查看仪表数据](monitor_meter_metric_mapping_9.1/view_meter_data/) |
+|                                                                | [切换同步启用/禁用](monitor_meter_metric_mapping_9.1/toggle_sync)            |
+|                                                                | [编辑仪表/指标映射](monitor_meter_metric_mapping_9.1/edit)                  |
+|                                                                | [删除仪表/指标映射](monitor_meter_metric_mapping_9.1/delete)              |
+
+| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|----------------------------------------------------------------|------------------------------------------------------------------------------------|
+| [Maximo Monitor 自定义函数](monitor_custom_function_9.1/) | [设置启动包](monitor_custom_function_9.1/setup_starter_package) |
+|                                                                | [编写自定义函数](monitor_custom_function_9.1/write_custom_function)                  |
+|                                                                | [注册自定义函数](monitor_custom_function_9.1/register_custom_function)             |
+|                                                                | [应用自定义函数](monitor_custom_function_9.1/apply_custom_function)               |
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
@@ -130,6 +118,27 @@
 |                                                                | [更新集成](monitor_avevapi_scada_historian_integration_9.1/edit-integration)                                             |
 |                                                                | [删除集成](monitor_avevapi_scada_historian_integration_9.1/delete-integration)                                           |
 |                                                                | [重置 API 密钥](monitor_avevapi_scada_historian_integration_9.1/reset-api-key)                                                     |
+
+| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| [Maximo Monitor Aveva PI Scada 历史数据集成](monitor_avevapi_scada_historian_integration_9.1/)   | [添加集成](monitor_avevapi_scada_historian_integration_9.1/add-integration)     |
+|                                                                | [验证并部署 docker](monitor_avevapi_scada_historian_integration_9.1/verify-deploy-docker)                                   |
+|                                                                | [Monitor 中的设备类型、设备和设备数据](monitor_avevapi_scada_historian_integration_9.1/devicetype-device-data-monitor)  |
+|                                                                | [更新集成](monitor_avevapi_scada_historian_integration_9.1/edit-integration)                                             |
+|                                                                | [删除集成](monitor_avevapi_scada_historian_integration_9.1/delete-integration)                                           |
+|                                                                | [重置 API 密钥](monitor_avevapi_scada_historian_integration_9.1/reset-api-key)                                                     |
+
+| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+|----------------------------------------------------------------|------------------------------------------------------------------------------------|
+| [Maximo Monitor Cisco Spaces 集成](monitor_cisco_spaces_integration_9.1/) | [Cisco Spaces 概述](monitor_cisco_spaces_integration_9.1/cisco_spaces_overview) |
+|                                                                | [生成激活令牌](monitor_cisco_spaces_integration_9.1/generate_activation_token)           |
+|                                                                | [配置 Cisco Spaces 集成](monitor_cisco_spaces_integration_9.1/cisco_spaces_integration)   |
+|                                                                | [位置列表概述](monitor_cisco_spaces_integration_9.1/locations_list)                        |
+|                                                                | [订阅 Cisco Space 位置](monitor_cisco_spaces_integration_9.1/subscribe)                      |
+|                                                                | [Cisco Spaces 位置指标](monitor_cisco_spaces_integration_9.1/location_metrics)                |
+|                                                                | [在 MREF 位置生成热图](monitor_cisco_spaces_integration_9.1/heatmap)                     |
+|                                                                | [取消订阅 Cisco Space 位置](monitor_cisco_spaces_integration_9.1/unsubscribe)                  |
+|                                                                | [编辑/删除 Cisco Spaces 配置](monitor_cisco_spaces_integration_9.1/edit_delete_config)   |
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
