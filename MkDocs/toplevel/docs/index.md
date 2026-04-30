@@ -16,7 +16,7 @@
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [MAS TechZone 基础认证镜像](mas_techzone_base/)        | [实例化 TechZone 认证基础镜像](mas_techzone_base/instantiate)       |
+| [MAS TechZone 基础认证镜像](mas_techzone_base/)        | [在TechZone上创建MAS环境](mas_techzone_base/instantiate)       |
 |                                                                | [准备使用](mas_techzone_base/prepare_for_use)                               |
 |                                                                | [更新 MAS](mas_techzone_base/update_mas)                                         |
 
