@@ -14,22 +14,22 @@
 
 ## 为资产设置仪表/指标映射
 
-1. 登录 MAS 并导航到 Monitor UI 中的资产页面（**Monitor → Setup → Assets (Monitor)**）。
+1. 登录 MAS 并导航到 Monitor UI 中的资产页面（**Monitor → 设置 → 资产 (Monitor)**）。
 ![导航资产](img/setup_01.png) <br/>
 
 2. 按名称搜索资产并点击它。
 ![导航资产](img/setup_02.png) <br/>
 
-3. 点击 **Meters mapping** 选项卡以查看链接到资产的仪表列表。
+3. 点击 **计量表映射** 选项卡以查看链接到资产的仪表列表。
 ![仪表映射选项卡](img/setup_03.png) <br/>
 
-4. 点击 **Map Metrics** 以打开添加仪表映射模型窗口。
+4. 点击 **Map 指标** 以打开添加仪表映射模型窗口。
 ![仪表映射选项卡](img/setup_04.png) <br/>
 
-5. 选择包含所需指标的设备，然后点击 **Next**。
+5. 选择包含所需指标的设备，然后点击 **下一步**。
 ![添加仪表映射选项卡](img/setup_05.png) <br/>
 
-6. 选择一个指标并设置初始日期，然后点击 **Submit**。
+6. 选择一个指标并设置初始日期，然后点击 **提交**。
 ![添加仪表映射选项卡](img/setup_06.png) <br/>
 
 7. 验证新映射是否出现在映射表中。
@@ -37,7 +37,7 @@
 
 ## 为位置设置仪表/指标映射
 
-1. 导航到 Monitor UI 中的位置页面（**Monitor → Setup → Locations (Monitor)**）。
+1. 导航到 Monitor UI 中的位置页面（**Monitor → 设置 → 位置 (Monitor)**）。
 ![导航位置](img/setup_08.png) <br/>
 
 2. 按名称搜索位置并点击它。
@@ -49,7 +49,7 @@
 
 您可以在一个集中位置查看所有仪表到指标的关联。要访问它们，请按照以下步骤操作：
 
-1. 从侧边菜单栏导航到 **Meter Mappings** 页面（**Monitor → Setup → Meter Mappings**）
+1. 从侧边菜单栏导航到 **计量表映射** 页面（**Monitor → 设置 → 计量表映射**）
 ![查看仪表映射](img/accessing_01.png) <br/>
 
 2. 验证您可以查看所有映射到指标的资产和位置仪表。

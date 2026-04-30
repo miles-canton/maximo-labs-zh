@@ -33,19 +33,19 @@ o 点击 `Create an IBM ID` 链接
 
 ### 为资产添加仪表
 
-1. 登录 MAS 并导航到 Manage UI 中的资产页面（**Manage → Assets → Assets**）：<br/>
+1. 登录 MAS 并导航到 Manage UI 中的资产页面（**Manage → 资产 → 资产**）：<br/>
 ![导航资产](img/view_meter_data_01.png) <br/>
 
 2. 按名称搜索资产并点击它以查看其仪表。
 ![导航资产](img/view_meter_data_02.png) <br/>
 
-3. 点击 **Meters** 选项卡。
+3. 点击 **计量表** 选项卡。
 ![创建仪表](img/create_meter_01.png) <br/>
 
 4. 点击添加仪表图标（圆圈中的 ➕）。
 ![创建仪表](img/create_meter_02.png) <br/>
 
-5. 点击 Meter 字段中的 **">"** 图标，然后从下拉菜单中点击 **Select value**。
+5. 点击 Meter 字段中的 **">"** 图标，然后从下拉菜单中点击 **选择值**。
 ![创建仪表](img/create_meter_03.png) <br/>
 
 6. 按名称搜索仪表并从仪表表中选择一个仪表。
@@ -59,7 +59,7 @@ o 点击 `Create an IBM ID` 链接
 
 ### 为位置添加仪表
 
-1. 登录 MAS 并导航到 Manage UI 中的位置页面（**Manage → Assets → Locations**）：<br/>
+1. 登录 MAS 并导航到 Manage UI 中的位置页面（**Manage → 资产 → 位置**）：<br/>
 ![导航位置](img/view_meter_data_05.png) <br/>
 
 2. 按名称搜索位置并点击它以查看其仪表。

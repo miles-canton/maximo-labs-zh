@@ -15,7 +15,7 @@
 
 按照以下步骤编辑仪表/指标映射：
 
-1. 导航到 MAS Monitor UI 中的 Meter Mappings 页面。[参考之前的练习](setup.md/#访问仪表指标映射)。
+1. 导航到 MAS Monitor UI 中的 计量表映射 页面。[参考之前的练习](setup.md/#访问仪表指标映射)。
 
 2. 点击您要编辑的仪表映射旁边的三点菜单。
 3. 从下拉菜单中选择 **Edit Mapping**。

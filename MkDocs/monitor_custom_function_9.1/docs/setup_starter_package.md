@@ -11,11 +11,12 @@
 1. 在您的环境中安装 [Python 3.11.x](https://www.python.org/downloads/)。
 2. 安装 [Git](https://git-scm.com/downloads)。
 3. 安装 Python 的 [pip3](https://pip.pypa.io/en/stable/installation/) 包管理器。
-4. 安装编辑器，例如 [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/)
+4. 安装编辑器，例如 [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/) 或 [VS Code](https://code.visualstudio.com/)。
+
 
 #### 设置启动包
 <ol>
-  <li>克隆 <a href='https://github.com/ibm-watson-iot/functions/tree/'> HelloWorld 启动包 </a>。</li>
+  <li>克隆 <a href='https://github.com/ibm-watson-iot/functions/'> HelloWorld 启动包 </a>。</li>
   <li>打开终端窗口。</li>
   <li>为启动包创建一个新的项目文件夹。例如，mkdir custom_function。</li>
   <li>切换到项目目录。例如，cd custom_function。</li>
