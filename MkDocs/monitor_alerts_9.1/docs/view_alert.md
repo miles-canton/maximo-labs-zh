@@ -33,11 +33,11 @@
 ![setup alert](img/viewalert2.png)</br>
 输入仪表板标题并点击"配置仪表板"。
 ![setup alert](img/viewalert3.png)</br>
-仪表板编辑器将打开。从右侧边栏中选择"告警表"。
+仪表板编辑器将打开。从右侧边栏中选择"警报表"。
 ![setup alert](img/viewalert4.png)</br>
 为告警提供标题和描述。选择数据的时间范围并点击"添加卡片"。
 ![setup alert](img/viewalert5.png)</br>
-从右侧边栏中选择"时间序列线"。输入标题，启用告警叠加，选择告警名称，点击"添加卡片"。
+从右侧边栏中选择"时间序列折线图"。输入标题，启用告警叠加，选择告警名称，点击"添加卡片"。
 ![setup alert](img/viewalert6.png)</br>
 点击"保存并关闭"。
 ![setup alert](img/viewalert11.png)</br>

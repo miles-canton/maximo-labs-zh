@@ -12,7 +12,8 @@
 在本实验中，已配置了一个资产，包含两个设备，两者都在运行模拟。
 ![hierarchy alert](img/ha1.png)</br>
 在资产级别添加了一个名为 asset_pressure_sum 的计算指标，用于每分钟计算来自设备的压力值总和。
-![hierarchy alert](img/ha2.png)</br>
+![hierarchy alert](img/ha2.png)
+![hierarchy alert](img/ha2-1.png)</br>
 
 ---
 
