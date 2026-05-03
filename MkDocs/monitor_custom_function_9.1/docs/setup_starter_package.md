@@ -16,26 +16,15 @@
 
 #### 设置启动包
 <ol>
-  <li>克隆 <a href='https://github.com/ibm-watson-iot/functions/'> HelloWorld 启动包 </a>。</li>
+  <li>克隆 <a href='https://github.com/miles-canton/maximo-monitor-custom_functions'> HelloWorld 启动包 </a>。</li>
   <li>打开终端窗口。</li>
   <li>为启动包创建一个新的项目文件夹。例如，mkdir custom_function。</li>
   <li>切换到项目目录。例如，cd custom_function。</li>
   <li>克隆启动包。输入：
-    <pre><code class="language-bash">git clone --branch starter_package https://github.com/ibm-watson-iot/functions.git</code></pre>
+    <pre><code class="language-bash">git clone https://github.com/miles-canton/maximo-monitor-custom_functions.git</code></pre>
   </li>
   <li>验证您已将启动包克隆到 custom_function 目录。</li>
-  <li>切换到启动包中的 functions 目录。输入：cd functions</li>
-  <li>打开 setup.py 文件。setup.py 文件定义了包名称和项目所需的包列表。</li>
-  <li>将 name 参数设置为 custom{your_initials}。将 {your_initials} 变量替换为  
-       您的姓名首字母或其他唯一值。</li>
-  <li>在 ibm-watson-iot/functions 仓库中，验证 iotfunction 包的版本是否正确。例如，对于 Maximo Monitor 9.1，该包必须来自 9.1.X GitHub 分支。不要将版本中的 x 替换为其他值。以下文本是一个示例 setup.py 文件。name 参数设置为 customId，并使用 9.1.X 分支。</br>
-        <pre><code class="language-bash">
-        #!/usr/bin/env python 
-        from setuptools import setup, find_packages
-        setup(name='customld', version='0.0.1', packages=find_packages(),
-        install_requires=['iotfunctions@git+https://github.com/ibm-watson-iot/functions.git@9.1.x'])
-        </code></pre> 
-  </li>
+  <li>切换到启动包中的 maximo-monitor-custom_functions 目录。输入：cd maximo-monitor-custom_functions</li>
 </ol> 
 
 #### 设置 Pycharm
