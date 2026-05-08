@@ -45,20 +45,19 @@ Predict 演示脚本。系统的数据可以由讲师提供,您也可以为某�
 
 为了允许用户在 Health 资产详细信息页面的 `操作` 按钮上 `编辑源记录`,您必须首先使用以下步骤在 Manage 中配置 Health 应用程序安全组。
 
-1. 转到 Manage 应用程序。
-![assets_page](img/hpu_8.11/select_manage.png)
+1. 点击左边菜单栏，
 2. 选择 `安全组` 应用程序。
-![assets_page](img/hpu_8.11/select_security_groups.png)
-3. 搜索 `HEALTH` 组并按 `回车` 键。
-![assets_page](img/hpu_8.11/search_health_group.png)
-4. 点击 `应用程序` 选项卡。
-5. 选择 `资产`
-![assets_page](img/hpu_8.11/click_applications_assets.png)
-6. 点击 `为应用程序授予列出的选项`
+![assets_page](img/select_security_groups.png)
+3. 搜索 `HEALTH` 组并按 `回车` 键，点击HEALTH 安全组。
+![assets_page](img/search_health_group.png)
+4. 点击 `应用程序` 选项卡，然后点击 `漏斗` 按钮，输入`资产`，
+5. 点击 `资产`
+![assets_page](img/click_applications_assets.png)
+6. 在 `“资产”的选项`中，
 7. 启用资产操作选项
-![assets_page](img/hpu_8.11/turn_on_options.png)
+![assets_page](img/turn_on_options.png)
 8. 点击 `保存组`。
-![assets_page](img/hpu_8.11/confirmation_save.png)
+![assets_page](img/confirmation_save.png)
 9. 返回 `Health` 应用程序并使用该用户登录以确保操作现在可行。
 
 ## 设置默认 Health 资产状况评分
@@ -76,7 +75,7 @@ Maximo Health v9 包含为所有不属于评分组的资产自动激活资产状
 2. 按 `激活` 按钮以启用默认评分。
 ![default_scores_form](img/default_scores_form.png)
 3. 确保您已创建资产并设置了所需的依赖项。资产优先级、针对资产设置的工单或服务请求。基于制造商的资产安装日期和资产预期寿命。
-4. 您也可以选择 `稍后激活评分`。转到 `设置组` 和 `组` 选项卡以找到 `Default_Score` 组来启用它。
+4. 您也可以选择 `稍后激活评分`。转到 `得分设置` 和 `组` 选项卡以找到 `Default_Score` 组来启用它。
 5. 检查组以查看默认评分是否已激活。您将看到为所有资产计算的 Health、风险和关键性。
 ![default_scores_group](img/defaultscores_activated.png)
 
@@ -99,17 +98,17 @@ Maximo Health v9 包含为所有不属于评分组的资产自动激活资产状
 - 预期寿命: 10(例如,制造商建议寿命 - 20%)
 - 供应商: Armstrong
 - 制造商: Armstrong
+</br>
+1. 登录 IBM Maximo.
 
-1. 登录 IBM Maximo。打开 IBM Maximo Application Suite。
-- 打开您的 Web 浏览器并导航到 IBM Maximo 登录页面。
-- 输入您的 `用户名` 和 `密码` 以登录。
-- 在 `应用程序` 选项卡上启动 `Manage`。如果 `应用程序` 选项卡上没有 `Manage` 磁贴,请让您的 MAS 管理员为您的用户 ID 启用它。
-
-2. 导航到 `资产` 模块。选择 `资产` 模块。从 Maximo 主菜单中,选择 `资产 > 资产`。
+2. 从 Maximo manage主菜单中,选择 `资产 > 资产`。
+![nav_asset](img/nav_asset.png)
 
 3. 创建新资产:
 
-- 打开 `新资产` 表单。在 `资产` 模块中,点击 `新资产` 按钮以打开 `资产创建` 表单。
+- 在 `资产` 模块中,点击 `新资产` 按钮以打开 `资产创建` 表单。
+![new_asset](img/new_asset.png)
+
 
 4. 填写资产详细信息:
 
@@ -120,16 +119,13 @@ Maximo Health v9 包含为所有不属于评分组的资产自动激活资产状
 - 输入 `供应商信息`。在 `供应商` 字段中,输入购买资产的供应商名称(例如,西门子)。
 - 输入 `制造商信息`。在 `制造商` 字段中,输入资产制造商的名称(例如,ABB)。
 - 输入 `预期寿命` (年)。在 `预期寿命` 字段中,输入资产的预期运行寿命(年)(例如,20)。
+![save_asset](img/save_asset.png)
+5. 填写完所有必填字段后, 点击 `保存` 按钮以在 Maximo 中创建资产记录。
 
-5. 保存 `资产`。填写完所有必填字段后,点击 `保存` 按钮以在 Maximo 中创建资产记录。
+6. 将资产状态选择为 `操作中`:
 
-- 点击 `保存` 以存储新资产记录。
-
-6. 将资产状态选择为 `活动`:
-
-- 从左侧的 `常用操作` 菜单中,找到 `状态` 菜单以启动状态表单。
-![change_asset_status](img/change_asset_status.png)
-- 从 `新状态` 下拉菜单中选择 `活动` 并点击 `保存` 按钮。
+- 从左侧的 `常用操作` 菜单中,找到 `变更状态` 菜单以启动状态表单。
+- 从 `新状态` 下拉菜单中选择 `操作中` 并点击 `确定` 按钮。
 ![change_asset_status](img/change_asset_status.png)
 
 ##  设置 Health 评分组
@@ -137,26 +133,30 @@ Maximo Health v9 包含为所有不属于评分组的资产自动激活资产状
 
 首次登录 Health 应用程序时,会显示所有托管资产的通用表列表视图。
 
-此视图和其他视图中显示的评分是从左侧导航栏的 `评分设置` 部分创建的。
+此视图和其他视图中显示的评分是从左侧导航栏的 `得分设置` 部分创建的。
 
-1. 将鼠标悬停在左侧导航栏上以展开它。选择左侧导航栏上的 `评分设置` 部分
+1. 将鼠标悬停在左侧导航栏上以展开它。选择左侧导航栏上的 `得分设置` 部分
 ![setup_settings menu](img/score_settings.png)	
 
 2. 通过选择具有相似行为的资产来创建评分组。`组` 绑定到 `资产查询`。
 
-如果已经创建了任何评分组,它们将出现在 `评分设置` 页面的 `组` 选项卡上。
+如果已经创建了任何评分组,它们将出现在 `得分设置` 页面的 `组` 选项卡上。
 
 3. 滚动浏览页面以查看已创建的组。
-![setup_assets](img/HPU_8.9/HPU 5.png)
+![setup_assets](img/score_groups.png)
 
-在 Maximo Health 中有两种创建资产状况评分的方法。第一种方法是使用 [Maximo 公式引擎]( )。第二种方法是使用 Watson Studio 自定义 Maximo Health 或加速器中提供的 Jupyter notebook 模板。每个资产类别都有自己的 notebook 模板。请参阅<a href="https://www.ibm.com/docs/en/mhmpmh-and-p-u/continuous-delivery?topic=cm-asset-class-notebooks-in-maximo-health-predict-utilities">文档</a>以获取 IBM 提供的资产类别列表。您可以使用扩展名为 `.cfg` 的文本文件配置 `评分设置`,以指定如何计算资产 Health、风险和关键性。
+在 Maximo Health 中有两种创建资产状况评分的方法。
+- 第一种方法是使用 [Maximo 公式引擎]( )。
+- 第二种方法是使用 Watson Studio 自定义 Maximo Health 或加速器中提供的 Jupyter notebook 模板。每个资产类别都有自己的 notebook 模板。请参阅<a href="https://www.ibm.com/docs/en/mhmpmh-and-p-u/continuous-delivery?topic=cm-asset-class-notebooks-in-maximo-health-predict-utilities">文档</a>以获取 IBM 提供的资产类别列表。
+
+您可以使用扩展名为 `.cfg` 的文本文件配置 `评分设置`,以指定如何计算资产 Health、风险和关键性。
 
 或者,可以直接在 UI 中从头开始创建评分方法。
 
 
 ### 创建评分组
 
-要为变电站变压器创建评分组,请点击 `创建评分和 DGA 组` 按钮,并完成表单。
+要为变电站变压器创建评分组,请点击 `创建评分组` 按钮,并完成表单。
 
 1. 点击 `创建评分组 +` 按钮。
 ![setup_assets](img/create_score_group.png)
@@ -164,23 +164,22 @@ Maximo Health v9 包含为所有不属于评分组的资产自动激活资产状
 3. 选择 `资产` 单选按钮以标识 `对象`。
 4. 选择 `将组连接到 notebook` 单选按钮以响应 `配置评分和 DGA 方式`。
 5. 点击 `选择` 以选择 notebook。
-![setup_assets](img/HPU_8.9/HPU 7.png)
+![setup_assets](img/sg_notebook.png)
 6. 出现提示时,滚动并选择 `IBM Transformers Tap Changers DGA 6.0.1`。
 7. 点击 `使用 notebook`。
-![setup_assets](img/HPU_8.9/HPU 8.png)
+![setup_assets](img/notebook.png)
 
 
-### 选择查询
+### 选择资产查询
 
 要确定将 notebook 或公式引擎设置应用于哪些资产,您必须选择资产查询。在这种情况下,选择变电站变压器。
 
-1. 点击 `选择` 以选择查询。
-![setup_assets](img/HPU_8.9/HPU 9.png)
-2. 出现提示时,滚动并选择 `EUORG1_EUDEMO_ST`
+1. 在组中的资产下面，点击 `选择` 以选择查询。
+2. 出现提示时,搜索demo并选择 `ASSET:Demo Potable Water Pumps`
+![select_assets](img/select_asset.png)
 3. 点击 `应用`
-![setup_assets](img/HPU_8.9/HPU 10.png)
 4. 点击 `创建`
-![setup_assets](img/HPU_8.9/HPU 11.png)
+![setup_assets](img/create_score_group_1.png)
 
 ### 激活评分
 
