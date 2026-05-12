@@ -128,15 +128,6 @@
 |                                                                | [重置 API 密钥](monitor_avevapi_scada_historian_integration_9.1/reset-api-key)                                                     |
 
 | 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
-|----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [Maximo Monitor Aveva PI Scada 历史数据集成](monitor_avevapi_scada_historian_integration_9.1/)   | [添加集成](monitor_avevapi_scada_historian_integration_9.1/add-integration)     |
-|                                                                | [验证并部署 docker](monitor_avevapi_scada_historian_integration_9.1/verify-deploy-docker)                                   |
-|                                                                | [Monitor 中的设备类型、设备和设备数据](monitor_avevapi_scada_historian_integration_9.1/devicetype-device-data-monitor)  |
-|                                                                | [更新集成](monitor_avevapi_scada_historian_integration_9.1/edit-integration)                                             |
-|                                                                | [删除集成](monitor_avevapi_scada_historian_integration_9.1/delete-integration)                                           |
-|                                                                | [重置 API 密钥](monitor_avevapi_scada_historian_integration_9.1/reset-api-key)                                                     |
-
-| 实验&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 练习&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |----------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [Maximo Monitor Cisco Spaces 集成](monitor_cisco_spaces_integration_9.1/) | [Cisco Spaces 概述](monitor_cisco_spaces_integration_9.1/cisco_spaces_overview) |
 |                                                                | [生成激活令牌](monitor_cisco_spaces_integration_9.1/generate_activation_token)           |
